@@ -7,7 +7,6 @@ import { Welcome } from '../welcome'
 const App = () => {
   return (
     <div> 
-      <h1>I see a black small golf!!!!</h1>
       <Welcome />
       <OpenSource/>
       <Contact/>
