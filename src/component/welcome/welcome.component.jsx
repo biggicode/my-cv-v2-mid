@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import * as WS from './welcome.style'
-import { youtubeConfig } from '../icomoon/config'
+import { youtubeConfig, downloadConfig, arrowDownConfig } from '../icomoon/config'
 
 const Welcome = () => {
   const [test, modificaTest] = useState({})
@@ -9,7 +9,6 @@ const Welcome = () => {
     () => {
       fetch("http://localhost:5000/welcome").then(
         result => result.json()
-
       ).then(result => modificaTest(result))
       // modificaTest("mere")
     },
@@ -46,6 +45,18 @@ const Welcome = () => {
         <WS.StyleRow>
           <WS.StyleDescripitonBox>{test.aboutMeBoxTextList}</WS.StyleDescripitonBox>
         </WS.StyleRow>
+
+        <WS.StyleIconWrapper>
+        <WS.StyleDownloadButton>
+          <WS.StyleDownloadIcon { ...downloadConfig }/>
+          <WS.StyleButtonText>{test.btnDownloadText}</WS.StyleButtonText>
+        </WS.StyleDownloadButton>
+        </WS.StyleIconWrapper>
+
+        <WS.StyleIconWrapper>
+          <WS.StyleArrowDownIcon { ...arrowDownConfig }/>
+        </WS.StyleIconWrapper>
+
       </WS.StyleGrid>
     </div>
   )

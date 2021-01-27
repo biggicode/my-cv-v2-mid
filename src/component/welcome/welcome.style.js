@@ -7,6 +7,36 @@ export const StyleIcon = styled(Icon)`
   padding: 10px;
   place-self: center;
 `
+export const StyleDownloadIcon = styled(Icon)`
+  border: 0;
+  padding: 10px;
+`
+export const StyleButtonText = styled.div`
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 600;
+  margin: auto;
+`
+
+export const StyleDownloadButton = styled.div`
+  height: 40px;
+  width: 170px;
+  border-radius: 20px;
+  padding: 0 10px;
+  font-size: 10px;
+  font-weight: bolder;
+  place-self: center;
+  background-color: #1875F0;
+  display: flex;
+  align-content: center;
+`
+
+export const StyleArrowDownIcon = styled(Icon)`
+  background-color: #50D166;
+  border-radius: 50%;
+  padding: 10px;
+  place-self: center;
+`
 export const StyleIconWrapper = styled.div`
   grid-column: 1/-1;
   display: grid;
