@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import * as WS from './welcome.style'
 import { youtubeConfig, downloadConfig, arrowDownConfig } from '../icomoon/config'
+import { Header } from '../header'
+
 
 const Welcome = () => {
   const [test, modificaTest] = useState({})
@@ -17,12 +19,8 @@ const Welcome = () => {
 
   return (
     <div>
+      <Header title={test.sectionTitle}/> 
       <WS.StyleGrid>
-        <WS.StyleRow>
-          <WS.StyleTitlteWrapper>
-            <WS.StyleSectionTitle>{test.sectionTitle}</WS.StyleSectionTitle>
-          </WS.StyleTitlteWrapper>
-        </WS.StyleRow>
 
         
         <WS.StyleIconWrapper>

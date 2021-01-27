@@ -6,7 +6,7 @@ import { Welcome } from '../welcome'
 
 const App = () => {
   return (
-    <div> 
+    <div>
       <Welcome />
       <OpenSource/>
       <Contact/>
