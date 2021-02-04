@@ -9,10 +9,18 @@ const Welcome = () => {
   
   useEffect(
     () => {
-      fetch("http://localhost:5000/welcome").then(
-        result => result.json()
-      ).then(result => modificaTest(result))
-      // modificaTest("mere")
+      // fetch("http://localhost:5000/welcome")
+      //   .then(result => result.json())
+      //   .then(result => modificaTest(result))
+      try {
+        const getResult = async () => { 
+          const result = await(await fetch("http://localhost:5000/welcome")).json()
+          modificaTest(result)
+        }
+        getResult()
+      } catch (error) {
+        console.log("eroare", error)
+      }
     },
     []
   )
