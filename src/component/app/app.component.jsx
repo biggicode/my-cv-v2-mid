@@ -1,17 +1,16 @@
 import React from 'react'
 import { Contact } from '../contact'
-import { OpenSource } from '../open-source'
 import { Skills } from '../skills'
 import { Welcome } from '../welcome'
+import * as AS from './app.style'
 
 const App = () => {
   return (
-    <div>
+    <AS.StyledApp>
       <Welcome />
-      <OpenSource/>
       <Contact/>
       <Skills/>
-    </div>
+    </AS.StyledApp>
   )
 }
 

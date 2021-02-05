@@ -26,45 +26,41 @@ const Welcome = () => {
   )
 
   return (
-    <div>
+    <WS.StyleGrid>
       <Header title={test.sectionTitle}/> 
-      <WS.StyleGrid>
 
-        
-        <WS.StyleIconWrapper>
-          <WS.StyleIcon { ...youtubeConfig }/>
-        </WS.StyleIconWrapper>
-        
+      <WS.StyleIconWrapper>
+        <WS.StyleIcon { ...youtubeConfig }/>
+      </WS.StyleIconWrapper>
 
-        <WS.StyleRow>
-          <WS.StyleMainTitle>{test.name}</WS.StyleMainTitle>
-        </WS.StyleRow>
+      <WS.StyleRow>
+        <WS.StyleMainTitle>{test.name}</WS.StyleMainTitle>
+      </WS.StyleRow>
 
-        <WS.StyleRow>
-          <WS.StyleProfession>{test.profession}</WS.StyleProfession>
-        </WS.StyleRow>
+      <WS.StyleRow>
+        <WS.StyleProfession>{test.profession}</WS.StyleProfession>
+      </WS.StyleRow>
 
-        <WS.StyleRow>
-          <WS.StyleSemiTitle>{test.welcomeInfo}</WS.StyleSemiTitle>
-        </WS.StyleRow>
+      <WS.StyleRow>
+        <WS.StyleSemiTitle>{test.welcomeInfo}</WS.StyleSemiTitle>
+      </WS.StyleRow>
 
-        <WS.StyleRow>
-          <WS.StyleDescripitonBox>{test.aboutMeBoxTextList}</WS.StyleDescripitonBox>
-        </WS.StyleRow>
+      <WS.StyleRow>
+        <WS.StyleDescripitonBox>{test.aboutMeBoxTextList}</WS.StyleDescripitonBox>
+      </WS.StyleRow>
 
-        <WS.StyleIconWrapper>
+      <WS.StyleIconWrapper>
         <WS.StyleDownloadButton>
           <WS.StyleDownloadIcon { ...downloadConfig }/>
           <WS.StyleButtonText>{test.btnDownloadText}</WS.StyleButtonText>
         </WS.StyleDownloadButton>
-        </WS.StyleIconWrapper>
+      </WS.StyleIconWrapper>
 
-        <WS.StyleIconWrapper>
-          <WS.StyleArrowDownIcon { ...arrowDownConfig }/>
-        </WS.StyleIconWrapper>
+      <WS.StyleIconWrapper>
+        <WS.StyleArrowDownIcon { ...arrowDownConfig }/>
+      </WS.StyleIconWrapper>
 
-      </WS.StyleGrid>
-    </div>
+    </WS.StyleGrid>
   )
 }
 
