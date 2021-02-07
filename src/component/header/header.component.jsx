@@ -1,7 +1,6 @@
 import React from 'react'
 import * as WS from './header.style'
 
-
 const Header = ({title}) => {
   return (
     <WS.StyleRow>

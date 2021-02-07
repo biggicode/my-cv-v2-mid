@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import * as CS from './contact.style'
+import * as WS from '../welcome/welcome.style'
 import { Header } from '../header'
+import { youtubeConfig } from '../icomoon/config'
 
 const Contact = () => {
 
@@ -25,7 +27,16 @@ const Contact = () => {
   return (
     <CS.StyledGrid>
       <Header title={dateContact.sectionTitle}/>
+
+      <WS.StyleIconWrapper>
+        <WS.StyleIcon { ...youtubeConfig }/>
+      </WS.StyleIconWrapper>
+
+      <CS.StyledImageDiv />
+      
+
     </CS.StyledGrid>
+
   )
 }
 

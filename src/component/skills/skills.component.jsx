@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <p>Return a paragraf</p>
+    <p>This is skills component</p>
   )
 }
 
