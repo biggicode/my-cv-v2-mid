@@ -33,6 +33,7 @@ const Contact = () => {
       </WS.StyleIconWrapper>
 
       <CS.StyledImageDiv />
+      
 
     </CS.StyledGrid>
 
