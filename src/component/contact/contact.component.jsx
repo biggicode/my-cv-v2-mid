@@ -33,6 +33,12 @@ const Contact = () => {
       </WS.StyleIconWrapper>
 
       <CS.StyledImageDiv />
+
+      <CS.StyledIconWrapper>
+        <CS.StyledContactIcon className={"icon__" + dateContact.iconsList[0].icon} />
+      </CS.StyledIconWrapper>
+
+      dateContact.iconsList.map()
       
 
     </CS.StyledGrid>
