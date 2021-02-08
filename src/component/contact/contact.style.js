@@ -15,7 +15,7 @@ export const StyledImageDiv = styled.div`
   border-radius: 8px;
   margin-bottom: 30px;
 
-  &:after {
+  &::after {
     content: "";
     background-image: url(${urlImage});
     background-size: cover;
@@ -26,4 +26,25 @@ export const StyledImageDiv = styled.div`
     right: 10px;
     border-radius: 6px;
   }
+`
+export const StyledIconWrapper = styled.div`
+  display: block;
+  transition: 250ms;
+  background-color: #1875F0;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: #FFF;
+  cursor: pointer;
+`
+export const StyledContactIcon = styled.i`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vw;
 `
