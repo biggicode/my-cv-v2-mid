@@ -6,7 +6,9 @@ import { youtubeConfig } from '../icomoon/config'
 
 const Contact = () => {
 
-  const [dateContact, schimbaDate] = useState({})
+  const [dateContact, schimbaDate] = useState({
+    iconsList: [{}]
+  })
 
   useEffect(
     () => {
@@ -14,6 +16,7 @@ const Contact = () => {
         const getResult = async () => {
           const rezultat = await(await fetch("http://localhost:5000/contact")).json()
           schimbaDate(rezultat)
+          console.log(rezultat)
         }
         getResult()
       } catch (error) {
@@ -34,11 +37,12 @@ const Contact = () => {
 
       <CS.StyledImageDiv />
 
-      <CS.StyledIconWrapper>
-        <CS.StyledContactIcon className={"icon__" + dateContact.iconsList[0].icon} />
-      </CS.StyledIconWrapper>
+        {dateContact.iconsList.map( ({icon}) => (
+        <CS.StyledIconWrapper>
+            <CS.StyledContactIcon icon={icon} />
+        </CS.StyledIconWrapper>
+        ))}
 
-      dateContact.iconsList.map()
       
 
     </CS.StyledGrid>
