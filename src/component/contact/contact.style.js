@@ -6,6 +6,11 @@ export const StyledGrid = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 `;
+
+export const StyledRow = styled.div`
+  grid-column: 1/-1;
+`
+
 export const StyledImageDiv = styled.div`
   background-color: #fff;
   padding-top: 100%;
@@ -85,3 +90,41 @@ export const StyledContactIcon = styled.i`
     font-display: block;
   }
 `;
+
+export const StyledBoxIcon = styled.div`
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  position: relative;
+  margin-top: 1rem;
+
+  &::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    clip-path: polygon(-6px -6px,100% 0,0 100%);
+    transform: rotate(45deg);
+    background-color: #fff;
+  }
+`
+export const StyledBoxHeader = styled.div`
+  padding: 20px;
+  display: flex;
+  align-items: center;
+`
+
+export const StyledBoxContent = styled.div`
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+  padding: 20px;
+`
+
+export const StyledBoxFooter = styled.div`
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+`

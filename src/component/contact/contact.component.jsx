@@ -37,14 +37,26 @@ const Contact = () => {
 
       <CS.StyledImageDiv />
 
-        {dateContact.iconsList.map( ({icon}) => (
-        <CS.StyledIconWrapper>
-            <CS.StyledContactIcon icon={icon} />
-        </CS.StyledIconWrapper>
-        ))}
+      {dateContact.iconsList.map( ({icon}) => (
+      <CS.StyledIconWrapper>
+          <CS.StyledContactIcon icon={icon} />
+      </CS.StyledIconWrapper>
+      ))}
 
+      <CS.StyledRow>
+        <CS.StyledBoxIcon>
+          <CS.StyledBoxHeader>
+            header
+          </CS.StyledBoxHeader>
+          <CS.StyledBoxContent>
+            content
+          </CS.StyledBoxContent>
+          <CS.StyledBoxFooter>
+            footer
+          </CS.StyledBoxFooter>
+        </CS.StyledBoxIcon>
+      </CS.StyledRow>
       
-
     </CS.StyledGrid>
 
   )
