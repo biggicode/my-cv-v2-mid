@@ -46,10 +46,10 @@ const Contact = () => {
       <CS.StyledRow>
         <CS.StyledBoxIcon>
           <CS.StyledBoxHeader>
-            header
+            <CS.StyledBoxHeaderText>{dateContact.iconsList[0].title}</CS.StyledBoxHeaderText>
           </CS.StyledBoxHeader>
           <CS.StyledBoxContent>
-            content
+            <CS.StyledBoxContentText>{dateContact.iconsList[0].description}</CS.StyledBoxContentText>
           </CS.StyledBoxContent>
           <CS.StyledBoxFooter>
             footer

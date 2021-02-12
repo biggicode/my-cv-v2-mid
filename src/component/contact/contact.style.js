@@ -117,10 +117,26 @@ export const StyledBoxHeader = styled.div`
   align-items: center;
 `
 
+export const StyledBoxHeaderText = styled.div`
+  flex-grow: 1;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+  text-transform: capitalize;
+`
+
 export const StyledBoxContent = styled.div`
   border-top: 2px solid #f5f5f5;
   border-bottom: 2px solid #f5f5f5;
   padding: 20px;
+`
+
+export const StyledBoxContentText = styled.p`
+  font-size: 14px;
+  line-height: 30px;
+  color: #707070;
+  font-weight: 600;
 `
 
 export const StyledBoxFooter = styled.div`
