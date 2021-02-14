@@ -56,6 +56,7 @@ const Contact = () => {
           </CS.StyledBoxFooter>
         </CS.StyledBoxIcon>
       </CS.StyledRow>
+
       <CS.StyledRow>
         <CS.StyledBoxIcon>
           <CS.StyledBoxHeader>
@@ -69,6 +70,7 @@ const Contact = () => {
           </CS.StyledBoxFooter>
         </CS.StyledBoxIcon>
       </CS.StyledRow>
+
       <CS.StyledRow>
         <CS.StyledBoxIcon>
           <CS.StyledBoxHeader>
@@ -76,6 +78,34 @@ const Contact = () => {
           </CS.StyledBoxHeader>
           <CS.StyledBoxContent>
             <CS.StyledBoxContentText>{dateContact.iconsList[2].description}</CS.StyledBoxContentText>
+          </CS.StyledBoxContent>
+          <CS.StyledBoxFooter>
+            footer
+          </CS.StyledBoxFooter>
+        </CS.StyledBoxIcon>
+      </CS.StyledRow>
+
+      <CS.StyledRow>
+        <CS.StyledBoxIcon>
+          <CS.StyledBoxHeader>
+            <CS.StyledBoxHeaderText>{dateContact.iconsList[3].title}</CS.StyledBoxHeaderText>
+          </CS.StyledBoxHeader>
+          <CS.StyledBoxContent>
+            <CS.StyledBoxContentText>{dateContact.iconsList[3].description}</CS.StyledBoxContentText>
+          </CS.StyledBoxContent>
+          <CS.StyledBoxFooter>
+            footer
+          </CS.StyledBoxFooter>
+        </CS.StyledBoxIcon>
+      </CS.StyledRow>
+
+      <CS.StyledRow>
+        <CS.StyledBoxIcon>
+          <CS.StyledBoxHeader>
+            <CS.StyledBoxHeaderText>{dateContact.iconsList[4].title}</CS.StyledBoxHeaderText>
+          </CS.StyledBoxHeader>
+          <CS.StyledBoxContent>
+            <CS.StyledBoxContentText>{dateContact.iconsList[4].description}</CS.StyledBoxContentText>
           </CS.StyledBoxContent>
           <CS.StyledBoxFooter>
             footer
