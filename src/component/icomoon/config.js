@@ -3,7 +3,8 @@ const config = {
     youtube: "youtube",
     arrowDown: "arrow-down",
     download: "download",
-    cross: "cross"
+    cross: "cross",
+    link: "link"
   },
   size: {
     small: 16,
@@ -37,6 +38,12 @@ export const arrowDownConfig = {
 
 export const crossConfig = {
   icon:config.icon.cross,
+  size:config.size.large,
+  color:config.color.white
+}
+
+export const linkConfig = {
+  icon:config.icon.link,
   size:config.size.large,
   color:config.color.white
 }
