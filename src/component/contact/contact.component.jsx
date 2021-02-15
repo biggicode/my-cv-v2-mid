@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import * as CS from './contact.style'
 import * as WS from '../welcome/welcome.style'
 import { Header } from '../header'
-import { youtubeConfig } from '../icomoon/config'
+import { youtubeConfig, crossConfig } from '../icomoon/config'
 
 const Contact = () => {
 
@@ -47,65 +47,11 @@ const Contact = () => {
         <CS.StyledBoxIcon>
           <CS.StyledBoxHeader>
             <CS.StyledBoxHeaderText>{dateContact.iconsList[0].title}</CS.StyledBoxHeaderText>
+            <CS.StyledCloseIcon {...crossConfig}/>
+
           </CS.StyledBoxHeader>
           <CS.StyledBoxContent>
             <CS.StyledBoxContentText>{dateContact.iconsList[0].description}</CS.StyledBoxContentText>
-          </CS.StyledBoxContent>
-          <CS.StyledBoxFooter>
-            footer
-          </CS.StyledBoxFooter>
-        </CS.StyledBoxIcon>
-      </CS.StyledRow>
-
-      <CS.StyledRow>
-        <CS.StyledBoxIcon>
-          <CS.StyledBoxHeader>
-            <CS.StyledBoxHeaderText>{dateContact.iconsList[1].title}</CS.StyledBoxHeaderText>
-          </CS.StyledBoxHeader>
-          <CS.StyledBoxContent>
-            <CS.StyledBoxContentText>{dateContact.iconsList[1].description}</CS.StyledBoxContentText>
-          </CS.StyledBoxContent>
-          <CS.StyledBoxFooter>
-            footer
-          </CS.StyledBoxFooter>
-        </CS.StyledBoxIcon>
-      </CS.StyledRow>
-
-      <CS.StyledRow>
-        <CS.StyledBoxIcon>
-          <CS.StyledBoxHeader>
-            <CS.StyledBoxHeaderText>{dateContact.iconsList[2].title}</CS.StyledBoxHeaderText>
-          </CS.StyledBoxHeader>
-          <CS.StyledBoxContent>
-            <CS.StyledBoxContentText>{dateContact.iconsList[2].description}</CS.StyledBoxContentText>
-          </CS.StyledBoxContent>
-          <CS.StyledBoxFooter>
-            footer
-          </CS.StyledBoxFooter>
-        </CS.StyledBoxIcon>
-      </CS.StyledRow>
-
-      <CS.StyledRow>
-        <CS.StyledBoxIcon>
-          <CS.StyledBoxHeader>
-            <CS.StyledBoxHeaderText>{dateContact.iconsList[3].title}</CS.StyledBoxHeaderText>
-          </CS.StyledBoxHeader>
-          <CS.StyledBoxContent>
-            <CS.StyledBoxContentText>{dateContact.iconsList[3].description}</CS.StyledBoxContentText>
-          </CS.StyledBoxContent>
-          <CS.StyledBoxFooter>
-            footer
-          </CS.StyledBoxFooter>
-        </CS.StyledBoxIcon>
-      </CS.StyledRow>
-
-      <CS.StyledRow>
-        <CS.StyledBoxIcon>
-          <CS.StyledBoxHeader>
-            <CS.StyledBoxHeaderText>{dateContact.iconsList[4].title}</CS.StyledBoxHeaderText>
-          </CS.StyledBoxHeader>
-          <CS.StyledBoxContent>
-            <CS.StyledBoxContentText>{dateContact.iconsList[4].description}</CS.StyledBoxContentText>
           </CS.StyledBoxContent>
           <CS.StyledBoxFooter>
             footer
