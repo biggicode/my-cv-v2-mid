@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import * as CS from './contact.style'
 import * as WS from '../welcome/welcome.style'
 import { Header } from '../header'
-import { youtubeConfig, crossConfig } from '../icomoon/config'
+import { youtubeConfig, crossConfig, linkConfig } from '../icomoon/config'
 
 const Contact = () => {
 
@@ -48,14 +48,19 @@ const Contact = () => {
           <CS.StyledBoxHeader>
             <CS.StyledBoxHeaderText>{dateContact.iconsList[0].title}</CS.StyledBoxHeaderText>
             <CS.StyledCloseIcon {...crossConfig}/>
-
           </CS.StyledBoxHeader>
+          
           <CS.StyledBoxContent>
             <CS.StyledBoxContentText>{dateContact.iconsList[0].description}</CS.StyledBoxContentText>
-          </CS.StyledBoxContent>
+            </CS.StyledBoxContent>
+
           <CS.StyledBoxFooter>
-            footer
+            <WS.StyleDownloadButton>
+              <WS.StyleDownloadIcon { ...linkConfig }/>
+              <WS.StyleButtonText>{dateContact.iconsList[0].label}</WS.StyleButtonText>
+            </WS.StyleDownloadButton>
           </CS.StyledBoxFooter>
+
         </CS.StyledBoxIcon>
       </CS.StyledRow>
       
