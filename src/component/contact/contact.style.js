@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import urlImage from "../../asset/image/cv2.jpg";
+import { Icon } from '../../component/icomoon'
 
 export const StyledGrid = styled.div`
   display: grid;
@@ -143,4 +144,10 @@ export const StyledBoxFooter = styled.div`
   padding: 20px;
   display: flex;
   justify-content: center;
+`
+
+export const StyledCloseIcon = styled(Icon)`
+  background-color: #1875f0;
+  border-radius: 50%;
+  padding: 10px;
 `
