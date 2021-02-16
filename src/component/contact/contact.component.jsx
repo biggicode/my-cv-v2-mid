@@ -3,6 +3,7 @@ import * as CS from './contact.style'
 import * as WS from '../welcome/welcome.style'
 import { Header } from '../header'
 import { youtubeConfig, crossConfig, linkConfig } from '../icomoon/config'
+import { InfoBox } from '../info-box'
 
 const Contact = () => {
 
@@ -44,24 +45,13 @@ const Contact = () => {
       ))}
 
       <CS.StyledRow>
-        <CS.StyledBoxIcon>
-          <CS.StyledBoxHeader>
-            <CS.StyledBoxHeaderText>{dateContact.iconsList[0].title}</CS.StyledBoxHeaderText>
-            <CS.StyledCloseIcon {...crossConfig}/>
-          </CS.StyledBoxHeader>
-          
-          <CS.StyledBoxContent>
-            <CS.StyledBoxContentText>{dateContact.iconsList[0].description}</CS.StyledBoxContentText>
-            </CS.StyledBoxContent>
-
-          <CS.StyledBoxFooter>
-            <WS.StyleDownloadButton>
-              <WS.StyleDownloadIcon { ...linkConfig }/>
-              <WS.StyleButtonText>{dateContact.iconsList[0].label}</WS.StyleButtonText>
-            </WS.StyleDownloadButton>
-          </CS.StyledBoxFooter>
-
-        </CS.StyledBoxIcon>
+        <InfoBox 
+          title={dateContact.iconsList[0].title}
+          description={dateContact.iconsList[0].description}
+          label={dateContact.iconsList[0].label} 
+          crossConfig={crossConfig} 
+          linkConfig={linkConfig}
+        />
       </CS.StyledRow>
       
     </CS.StyledGrid>
