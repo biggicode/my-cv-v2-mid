@@ -7,9 +7,8 @@ import { InfoBox } from '../info-box'
 
 const Contact = () => {
 
-  const [dateContact, schimbaDate] = useState({
-    iconsList: [{}]
-  })
+  const [dateContact, schimbaDate] = useState({})
+  const [selected, setSelected] = useState([])
 
   useEffect(
     () => {
@@ -17,7 +16,6 @@ const Contact = () => {
         const getResult = async () => {
           const rezultat = await(await fetch("http://localhost:5000/contact")).json()
           schimbaDate(rezultat)
-          console.log(rezultat)
         }
         getResult()
       } catch (error) {
@@ -27,10 +25,31 @@ const Contact = () => {
     []
   )
 
+  const handleClick = (e)=> {
+    const test = dateContact?.iconsList.filter(el => el.icon === e.target.id)
+    test[0].icon === selected[0]?.icon ? setSelected([]) : setSelected(test)
+  }
 
+  const handleClose = () => {
+    setSelected([])
+  }
+
+  const conditionalInfoBox = () => {
+    if (selected.length) {
+      return (
+        <InfoBox
+          selected={selected[0]}
+          handleClose={handleClose}
+          crossConfig={crossConfig} 
+          linkConfig={linkConfig}
+        />
+      )
+    }
+  }
+  
   return (
     <CS.StyledGrid>
-      <Header title={dateContact.sectionTitle}/>
+      <Header title={dateContact?.sectionTitle}/>
 
       <WS.StyleIconWrapper>
         <WS.StyleIcon { ...youtubeConfig }/>
@@ -38,20 +57,14 @@ const Contact = () => {
 
       <CS.StyledImageDiv />
 
-      {dateContact.iconsList.map( ({icon}) => (
-      <CS.StyledIconWrapper>
-          <CS.StyledContactIcon icon={icon} />
-      </CS.StyledIconWrapper>
+      {dateContact?.iconsList?.map( ({icon}) => (
+        <CS.StyledIconWrapper key={icon}>
+            <CS.StyledContactIcon key={icon} id={icon} onClick={handleClick} icon={icon} />
+        </CS.StyledIconWrapper>
       ))}
 
       <CS.StyledRow>
-        <InfoBox 
-          title={dateContact.iconsList[0].title}
-          description={dateContact.iconsList[0].description}
-          label={dateContact.iconsList[0].label} 
-          crossConfig={crossConfig} 
-          linkConfig={linkConfig}
-        />
+        {conditionalInfoBox()}
       </CS.StyledRow>
       
     </CS.StyledGrid>
