@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import * as SS from './skills.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { SemiTitle } from '../semi-title'
 
 const Skills = () => {
 
@@ -29,6 +30,8 @@ const Skills = () => {
       <Header title={dateSkills.sectionTitle}/>
 
       <HeaderIcon />
+
+      <SemiTitle titlu={dateSkills.legend.titlu}/>
     </SS.StyledGrid>
   )
 }
