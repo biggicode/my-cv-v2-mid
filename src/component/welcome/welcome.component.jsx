@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import * as WS from './welcome.style'
-import { youtubeConfig, downloadConfig, arrowDownConfig } from '../icomoon/config'
+import { downloadConfig, arrowDownConfig } from '../icomoon/config'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import * as SS from './skills.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { SemiTitle } from '../semi-title'
 
 const Skills = () => {
 
@@ -11,7 +12,7 @@ const Skills = () => {
     () => {
       try {
         const getResult = async () => {
-          const rezultat = await(await fetch("http://localhost:5000/contact")).json()
+          const rezultat = await(await fetch("http://localhost:5000/skills")).json()
           setDateSkills(rezultat)
         }
         getResult()
@@ -26,9 +27,11 @@ const Skills = () => {
 
   return (
     <SS.StyledGrid>
-      <Header title={dateSkills.sectionTitle}/>
+      <Header title={dateSkills?.sectionTitle}/>
 
       <HeaderIcon />
+
+      <SemiTitle title={dateSkills?.legend?.titlu}/>
     </SS.StyledGrid>
   )
 }
