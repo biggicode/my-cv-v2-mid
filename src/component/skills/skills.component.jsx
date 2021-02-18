@@ -12,7 +12,7 @@ const Skills = () => {
     () => {
       try {
         const getResult = async () => {
-          const rezultat = await(await fetch("http://localhost:5000/contact")).json()
+          const rezultat = await(await fetch("http://localhost:5000/skills")).json()
           setDateSkills(rezultat)
         }
         getResult()
@@ -27,11 +27,11 @@ const Skills = () => {
 
   return (
     <SS.StyledGrid>
-      <Header title={dateSkills.sectionTitle}/>
+      <Header title={dateSkills?.sectionTitle}/>
 
       <HeaderIcon />
 
-      <SemiTitle titlu={dateSkills.legend.titlu}/>
+      <SemiTitle title={dateSkills?.legend?.titlu}/>
     </SS.StyledGrid>
   )
 }

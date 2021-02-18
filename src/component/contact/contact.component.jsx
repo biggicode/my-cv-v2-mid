@@ -3,7 +3,7 @@ import * as CS from './contact.style'
 import * as WS from '../welcome/welcome.style'
 import { Header } from '../header'
 import { HeaderIcon }  from '../header-icon'
-import { youtubeConfig, crossConfig, linkConfig, arrowDownConfig } from '../icomoon/config'
+import { crossConfig, linkConfig, arrowDownConfig } from '../icomoon/config'
 import { InfoBox } from '../info-box'
 
 const Contact = () => {
