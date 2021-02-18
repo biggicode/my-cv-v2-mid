@@ -1,16 +1,17 @@
 import styled from 'styled-components'
 import { Icon } from '../../component/icomoon'
 
-export const StyleIcon = styled(Icon)`
-  background-color: #d52027;
-  border-radius: 50%;
-  padding: 10px;
-  place-self: center;
+export const StyleIconWrapper = styled.div`
+  grid-column: 1/-1;
+  display: grid;
+  height: 80px;
 `
+
 export const StyleDownloadIcon = styled(Icon)`
   border: 0;
   padding: 10px;
 `
+
 export const StyleButtonText = styled.div`
   color: #FFF;
   font-size: 10px;
@@ -37,11 +38,7 @@ export const StyleArrowDownIcon = styled(Icon)`
   padding: 10px;
   place-self: center;
 `
-export const StyleIconWrapper = styled.div`
-  grid-column: 1/-1;
-  display: grid;
-  height: 80px;
-`
+
 
 
 
