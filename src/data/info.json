@@ -85,6 +85,154 @@
         "link": "https://codetap.academy"
       }
     ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "description": "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+    "legend": {
+      "titlu": "Legend",
+      "listaElemente": [
+        {
+          "icon": "heart",
+          "color": "red",
+          "label": "Skills I love"
+        },
+        {
+          "icon": "trophy",
+          "color": "orange",
+          "label": "Skills I'm good at"
+        },
+        {
+          "icon": "book",
+          "color": "green",
+          "label": "Skills I'd love to get better at"
+        }
+      ]
+    },
+    "vrajiTypeList": [
+      {
+        "titlu": "Front End",
+        "vrajiList": [
+          {
+            "type": "heart",
+            "label": "HTML"
+          },
+          {
+            "type": "heart",
+            "label": "CSS"
+          },
+          {
+            "type": "heart",
+            "label": "JavaScript"
+          },
+          {
+            "type": "heart",
+            "label": "React"
+          },
+          {
+            "type": "heart",
+            "label": "Redux"
+          },
+          {
+            "type": "heart",
+            "label": "Styled Components"
+          },
+          {
+            "type": "trophy",
+            "label": "Sass"
+          },
+          {
+            "type": "trophy",
+            "label": "Less"
+          },
+          {
+            "type": "trophy",
+            "label": "Material UI"
+          },
+          {
+            "type": "trophy",
+            "label": "SEO"
+          }
+        ]
+      },
+      {
+        "titlu": "Back End",
+        "vrajiList": [
+          {
+            "type": "heart",
+            "label": "Pug"
+          },
+          {
+            "type": "heart",
+            "label": "NodeJs"
+          },
+          {
+            "type": "heart",
+            "label": "FireBase"
+          },
+          {
+            "type": "trophy",
+            "label": "Git"
+          },
+          {
+            "type": "trophy",
+            "label": "Linuxel"
+          },
+          {
+            "type": "trophy",
+            "label": "Rest"
+          },
+          {
+            "type": "trophy",
+            "label": "MySQL"
+          },
+          {
+            "type": "book",
+            "label": "Placinta"
+          },
+          {
+            "type": "book",
+            "label": "CuMere"
+          },
+          {
+            "type": "book",
+            "label": "SiZahar"
+          },
+          {
+            "type": "book",
+            "label": "TurtaDulce"
+          }
+        ]
+      },
+      {
+        "titlu": "Others",
+        "vrajiList": [
+          {
+            "type": "heart",
+            "label": "Windows"
+          },
+          {
+            "type": "heart",
+            "label": "Linux"
+          },
+          {
+            "type": "heart",
+            "label": "Macarena"
+          },
+          {
+            "type": "trophy",
+            "label": "PentruMac"
+          },
+          {
+            "type": "trophy",
+            "label": "Nuam"
+          },
+          {
+            "type": "trophy",
+            "label": "Bani"
+          }
+        ]
+      }
+    ]
   }
-  
 }
