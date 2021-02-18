@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import * as WS from './welcome.style'
 import { youtubeConfig, downloadConfig, arrowDownConfig } from '../icomoon/config'
 import { Header } from '../header'
+import { HeaderIcon } from '../header-icon'
 
 
 const Welcome = () => {
@@ -29,9 +30,7 @@ const Welcome = () => {
     <WS.StyleGrid>
       <Header title={test.sectionTitle}/> 
 
-      <WS.StyleIconWrapper>
-        <WS.StyleIcon { ...youtubeConfig }/>
-      </WS.StyleIconWrapper>
+      <HeaderIcon />
 
       <WS.StyleRow>
         <WS.StyleMainTitle>{test.name}</WS.StyleMainTitle>

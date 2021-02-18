@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import * as SS from './skills.style'
 import { Header } from '../header'
+import { HeaderIcon } from '../header-icon'
 
 const Skills = () => {
 
@@ -27,6 +28,7 @@ const Skills = () => {
     <SS.StyledGrid>
       <Header title={dateSkills.sectionTitle}/>
 
+      <HeaderIcon />
     </SS.StyledGrid>
   )
 }
