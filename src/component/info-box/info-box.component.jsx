@@ -20,7 +20,4 @@ export const InfoBox = ({selected, handleClose, crossConfig, linkConfig}) => {
 
     </IFC.StyledBoxIcon>
   )
-
-
-
 }
