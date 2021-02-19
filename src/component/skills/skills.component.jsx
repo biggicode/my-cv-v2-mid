@@ -32,6 +32,17 @@ const Skills = () => {
       <HeaderIcon />
 
       <SemiTitle title={dateSkills?.legend?.titlu}/>
+
+      <SS.StyledUl>
+        {dateSkills?.listaElemente?.map( ({icon,label}) => (
+          <SS.StyledLi>
+            <SS.StyledSpanIcon className={icon}/>
+            <SS.StyledLabelLegend></SS.StyledLabelLegend>
+            <SS.StyledNumarLegend>{label}</SS.StyledNumarLegend>
+          </SS.StyledLi>
+        ))}
+      </SS.StyledUl>
+
     </SS.StyledGrid>
   )
 }
