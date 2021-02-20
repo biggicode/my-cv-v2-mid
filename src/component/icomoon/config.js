@@ -4,7 +4,10 @@ const config = {
     arrowDown: "arrow-down",
     download: "download",
     cross: "cross",
-    link: "link"
+    link: "link",
+    book: "book",
+    trophy: "trophy",
+    heart: "heart"
   },
   size: {
     small: 16,
@@ -48,3 +51,20 @@ export const linkConfig = {
   color:config.color.white
 }
 
+export const bookConfig = {
+  icon:config.icon.book,
+  size:config.size.large,
+  color:config.color.red
+}
+
+export const heartConfig = {
+  icon:config.icon.heart,
+  size:config.size.large,
+  color:config.color.red
+}
+
+export const trophyConfig = {
+  icon:config.icon.trophy,
+  size:config.size.large,
+  color:config.color.red
+}
