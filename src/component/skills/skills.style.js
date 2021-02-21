@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Icon } from '../icomoon'
 
 export const StyledGrid = styled.div`
   display: grid;
@@ -37,7 +38,7 @@ export const StyledLi = styled.li`
   }
 `
 
-export const StyledSpanIcon = styled.span`
+export const StyledSpanIcon = styled(Icon)`
   padding: 10px 12px 8px 10px;
   display: flex;
   justify-content: center;
