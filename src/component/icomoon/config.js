@@ -17,7 +17,9 @@ const config = {
   },
   color: {
     white: "#FFF",
-    red: "#d52027"
+    red: "#d52027",
+    orange: "#F18F1C",
+    green: "#50D166"
   }
 }
 
@@ -54,7 +56,7 @@ export const linkConfig = {
 export const bookConfig = {
   icon:config.icon.book,
   size:config.size.large,
-  color:config.color.red
+  color:config.color.orange
 }
 
 export const heartConfig = {
@@ -66,5 +68,5 @@ export const heartConfig = {
 export const trophyConfig = {
   icon:config.icon.trophy,
   size:config.size.large,
-  color:config.color.red
+  color:config.color.green
 }

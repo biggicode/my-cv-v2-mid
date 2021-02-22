@@ -16,24 +16,25 @@ export const StyledUl = styled.ul`
   border-radius: 6px;
   border: 2px solid #707070;
   list-style-type: none;
+  grid-column: span 4;
 `
 export const StyledLi = styled.li`
   display: flex;
 
   &:not(:last-child) {
-    @extend %list-item;
+    border-bottom: 2px solid #707070;
   }
 
 
-  &:first-child .icon__vraji{
+  &:first-child {
     color: #d52027;
   }
 
-  &:nth-child(2) .icon__vraji{
+  &:nth-child(2) {
     color: #50D166;
   }
 
-  &:last-child .icon__vraji{
+  &:last-child {
     color: #F18F1C;
   }
 `
