@@ -70,3 +70,21 @@ export const trophyConfig = {
   size:config.size.large,
   color:config.color.green
 }
+
+export const iconsForLegend = {
+  bookConfig: {
+    icon:config.icon.book,
+    size:config.size.large,
+    color:config.color.orange
+  },
+  heartConfig: {
+    icon:config.icon.heart,
+    size:config.size.large,
+    color:config.color.red
+  },
+  trophyConfig: {
+    icon:config.icon.trophy,
+    size:config.size.large,
+    color:config.color.green
+  }
+}
