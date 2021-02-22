@@ -3,7 +3,7 @@ import * as SS from './skills.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
-import { bookConfig, trophyConfig, heartConfig } from '../icomoon/config'
+import { bookConfig, trophyConfig, heartConfig, iconsForLegend } from '../icomoon/config'
 
 const Skills = () => {
 
@@ -38,13 +38,22 @@ const Skills = () => {
       <SS.StyledUl>
         {dateSkills?.legend?.listaElemente?.map( ({label,icon}) => (
           <SS.StyledLi>
-            <SS.StyledSpanIcon { ...bookConfig }/>
+            <SS.StyledSpanIcon { ...iconsForLegend.trophyConfig }/>
             <SS.StyledLabelLegend>{label}</SS.StyledLabelLegend>
             <SS.StyledNumarLegend>{label}</SS.StyledNumarLegend>
           </SS.StyledLi>
         ))}
       </SS.StyledUl>
       
+      <SemiTitle title={dateSkills?.vrajiTypeList[0]?.titlu}/>
+
+      {dateSkills?.vrajiTypeList?.vrajiList?.map(({label}) => (
+        <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+      ))}
+
+      <SemiTitle title={dateSkills?.vrajiTypeList[1]?.titlu}/>
+
+      <SemiTitle title={dateSkills?.vrajiTypeList[2]?.titlu}/>
 
     </SS.StyledGrid>
   )

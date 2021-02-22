@@ -60,3 +60,12 @@ export const StyledLabelLegend = styled.span`
   color: #999;
   flex-grow: 1;
 `
+export const StyledSkillButton = styled.div`
+  border-radius: 15px;
+  height: 30px;
+  color: #fff;
+  padding: 0 18px;
+  line-height: 30px;
+  font-size: 9px;
+  background-color: #ff0000;
+`
