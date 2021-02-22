@@ -7,7 +7,9 @@ import { bookConfig, trophyConfig, heartConfig, iconsForLegend } from '../icomoo
 
 const Skills = () => {
 
-  const [dateSkills, setDateSkills] = useState({})
+  const [dateSkills, setDateSkills] = useState({
+    vrajiTypeList: []
+  })
 
   useEffect(
     () => {
