@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Icon } from '../../component/icomoon'
+import { Icon } from '../icomoon'
 
 export const StyleIconWrapper = styled.div`
   grid-column: 1/-1;
