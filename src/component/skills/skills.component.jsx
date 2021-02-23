@@ -48,14 +48,39 @@ const Skills = () => {
       </SS.StyledUl>
       
       <SemiTitle title={dateSkills?.vrajiTypeList[0]?.titlu}/>
-
-      {dateSkills?.vrajiTypeList?.vrajiList?.map(({label}) => (
-        <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
-      ))}
+      
+      <SS.StyledRow>
+        {dateSkills?.vrajiTypeList[0]?.vrajiList?.map(({label}) => (
+          <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+        ))}
+      </SS.StyledRow>
 
       <SemiTitle title={dateSkills?.vrajiTypeList[1]?.titlu}/>
 
+      <SS.StyledRow>
+        {dateSkills?.vrajiTypeList[1]?.vrajiList?.map(({label}) => (
+          <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+        ))}
+      </SS.StyledRow>
+
       <SemiTitle title={dateSkills?.vrajiTypeList[2]?.titlu}/>
+
+      <SS.StyledRow>
+        {dateSkills?.vrajiTypeList[2]?.vrajiList?.map(({label}) => (
+          <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+        ))}
+      </SS.StyledRow>
+
+      <SS.StyledRow />
+
+      <SS.StyledRow>
+        <SS.StyledJoke>
+          <SS.StyledJokeText>{dateSkills?.description}</SS.StyledJokeText>
+        </SS.StyledJoke>
+      </SS.StyledRow>
+
+      <SS.StyledRow />
+
 
     </SS.StyledGrid>
   )
