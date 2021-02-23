@@ -61,11 +61,28 @@ export const StyledLabelLegend = styled.span`
   flex-grow: 1;
 `
 export const StyledSkillButton = styled.div`
+  font-weight: bolder;
   border-radius: 15px;
   height: 30px;
   color: #fff;
   padding: 0 18px;
   line-height: 30px;
-  font-size: 9px;
+  font-size: 12px;
   background-color: #ff0000;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+`
+
+export const StyledJoke = styled.div`
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0,0.3);
+  border-radius: 6px;
+  padding: 20px;
+`
+
+export const StyledJokeText = styled.p`
+  font-size: 14px;
+  line-height: 30px;
+  color: #707070;
 `
