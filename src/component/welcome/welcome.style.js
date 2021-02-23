@@ -32,16 +32,6 @@ export const StyleDownloadButton = styled.div`
   align-content: center;
 `
 
-export const StyleArrowDownIcon = styled(Icon)`
-  background-color: #50D166;
-  border-radius: 50%;
-  padding: 10px;
-  place-self: center;
-`
-
-
-
-
 export const StyleMainTitle = styled.h1`
   font-weight: 600;
   color: #707070;

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import * as CS from './contact.style'
-import * as WS from '../welcome/welcome.style'
 import { Header } from '../header'
 import { HeaderIcon }  from '../header-icon'
-import { crossConfig, linkConfig, arrowDownConfig } from '../icomoon/config'
+import { ArrowDown } from '../arrow-down'
+import { crossConfig, linkConfig } from '../icomoon/config'
 import { InfoBox } from '../info-box'
 
 const Contact = () => {
@@ -66,9 +66,7 @@ const Contact = () => {
         {conditionalInfoBox()}
       </CS.StyledRow>
 
-      <WS.StyleIconWrapper>
-        <WS.StyleArrowDownIcon { ...arrowDownConfig }/>
-      </WS.StyleIconWrapper>
+      <ArrowDown />
       
     </CS.StyledGrid>
 

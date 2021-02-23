@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import * as WS from './welcome.style'
-import { downloadConfig, arrowDownConfig } from '../icomoon/config'
+import { downloadConfig } from '../icomoon/config'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { ArrowDown } from '../arrow-down'
 
 
 const Welcome = () => {
@@ -55,9 +56,7 @@ const Welcome = () => {
         </WS.StyleDownloadButton>
       </WS.StyleIconWrapper>
 
-      <WS.StyleIconWrapper>
-        <WS.StyleArrowDownIcon { ...arrowDownConfig }/>
-      </WS.StyleIconWrapper>
+      <ArrowDown />
 
     </WS.StyleGrid>
   )
