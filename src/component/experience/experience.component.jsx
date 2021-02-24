@@ -12,7 +12,7 @@ export const Experience = () => {
         const result = await(await fetch('http://localhost:5000/experience')).json()
         setDateExperience(result)
       }
-      getResult
+      getResult()
     } catch (error) {
       console.log("Ceva nu merge", error)
     }
