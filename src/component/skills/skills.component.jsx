@@ -39,11 +39,11 @@ const Skills = () => {
 
 
       <SS.StyledUl>
-        {dateSkills?.legend?.listaElemente?.map( ({label,icon}) => (
+        {dateSkills?.legend?.listaElemente?.map( ({label, icon, color}, cheie) => (
           <SS.StyledLi>
-            <SS.StyledSpanIcon { ...iconsForLegend.trophyConfig }/>
+            <SS.StyledSpanIcon { ...iconsForLegend.trophyConfig } icon={icon} color={color}/>
             <SS.StyledLabelLegend>{label}</SS.StyledLabelLegend>
-            <SS.StyledNumarLegend>{label}</SS.StyledNumarLegend>
+            <SS.StyledNumarLegend>{cheie + 1}</SS.StyledNumarLegend>
           </SS.StyledLi>
         ))}
       </SS.StyledUl>
