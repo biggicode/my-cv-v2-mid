@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import * as ES from './experience.style'
 import { Header } from '../header'
+import { HeaderIcon } from '../header-icon'
 
 export const Experience = () => {
 
@@ -23,6 +24,8 @@ export const Experience = () => {
   return (
     <ES.GridContainer>
       <Header title={dateExperience.sectionTitle}/>
+
+      <HeaderIcon />
     </ES.GridContainer>
   )
 }
