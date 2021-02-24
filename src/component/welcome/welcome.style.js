@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Icon } from '../../component/icomoon'
+import { Icon } from '../icomoon'
 
 export const StyleIconWrapper = styled.div`
   grid-column: 1/-1;
@@ -31,16 +31,6 @@ export const StyleDownloadButton = styled.div`
   display: flex;
   align-content: center;
 `
-
-export const StyleArrowDownIcon = styled(Icon)`
-  background-color: #50D166;
-  border-radius: 50%;
-  padding: 10px;
-  place-self: center;
-`
-
-
-
 
 export const StyleMainTitle = styled.h1`
   font-weight: 600;
