@@ -26,6 +26,8 @@ export const Experience = () => {
       <Header title={dateExperience.sectionTitle}/>
 
       <HeaderIcon />
+
+      
     </ES.GridContainer>
   )
 }

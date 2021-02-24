@@ -44,6 +44,7 @@ export const StyledSpanIcon = styled(Icon)`
   display: flex;
   justify-content: center;
   align-items: center;
+  color: ${({ color }) => color};
 `
 
 export const StyledNumarLegend = styled.span`

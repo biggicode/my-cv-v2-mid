@@ -93,7 +93,7 @@
       "titlu": "Legend",
       "listaElemente": [
         {
-          "icon": "bookConfig",
+          "icon": "heart",
           "color": "red",
           "label": "Skills I love"
         },
