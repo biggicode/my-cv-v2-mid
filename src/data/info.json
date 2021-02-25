@@ -94,17 +94,17 @@
       "listaElemente": [
         {
           "icon": "heart",
-          "color": "red",
+          "color": "#d52027",
           "label": "Skills I love"
         },
         {
           "icon": "trophy",
-          "color": "orange",
+          "color": "#50D166",
           "label": "Skills I'm good at"
         },
         {
           "icon": "book",
-          "color": "green",
+          "color": "#F18F1C",
           "label": "Skills I'd love to get better at"
         }
       ]

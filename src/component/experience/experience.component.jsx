@@ -27,7 +27,13 @@ export const Experience = () => {
 
       <HeaderIcon />
 
-      
+      <ES.GridRow>
+        <ES.StyledUl>
+          {dateExperience?.experienceList?.map( ({jobRole}) => (
+            <ES.StyledLi>{jobRole}</ES.StyledLi>
+          ))}
+        </ES.StyledUl>
+      </ES.GridRow>
     </ES.GridContainer>
   )
 }

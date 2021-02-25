@@ -9,3 +9,18 @@ export const GridContainer = styled.div`
 export const GridRow = styled.div`
   grid-column: 1/-1;
 `
+
+export const StyledUl = styled.ul`
+  border: 2px solid #707070;
+  border-radius: 6px;
+  background-color: #fff;
+  list-style-type: none;
+`
+
+export const StyledLi = styled.li`
+  border-top: 2px solid #707070;
+
+  &:first-child {
+    border-top: none;
+  }
+`
