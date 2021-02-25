@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import * as ES from './experience.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { ArrowDown } from '../arrow-down'
 
 export const Experience = () => {
 
@@ -34,6 +35,9 @@ export const Experience = () => {
           ))}
         </ES.StyledUl>
       </ES.GridRow>
+
+      <ArrowDown />
+
     </ES.GridContainer>
   )
 }
