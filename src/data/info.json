@@ -242,7 +242,40 @@
         "jobRole": "Junior Web Developer",
         "firstDate": "2021 Month",
         "secondDate": "2021 Month",
-        "imageName": "Arcadia",
+        "imageName": "/asset/company-logo/arcadia.png",
+        "companyName": "Mirciulica Media",
+        "content": [
+          "I like eating oatmeal for breakfast",
+          "I will go to the gym today"
+        ]
+      },
+      {
+        "jobRole": "Junior Web Developer",
+        "firstDate": "2021 Month",
+        "secondDate": "2021 Month",
+        "imageName": "/asset/company-logo/rma.png",
+        "companyName": "Mirciulica Media",
+        "content": [
+          "I like eating oatmeal for breakfast",
+          "I will go to the gym today"
+        ]
+      },
+      {
+        "jobRole": "Junior Web Developer",
+        "firstDate": "2021 Month",
+        "secondDate": "2021 Month",
+        "imageName": "/asset/company-logo/romaris.png",
+        "companyName": "Mirciulica Media",
+        "content": [
+          "I like eating oatmeal for breakfast",
+          "I will go to the gym today"
+        ]
+      },
+      {
+        "jobRole": "Junior Web Developer",
+        "firstDate": "2021 Month",
+        "secondDate": "2021 Month",
+        "imageName": "/asset/company-logo/arcadia.png",
         "companyName": "Mirciulica Media",
         "content": [
           "I like eating oatmeal for breakfast",
@@ -253,7 +286,7 @@
         "jobRole": "HTML Developer",
         "firstDate": "2020 Month",
         "secondDate": "2020 Month",
-        "imageName": "Argus",
+        "imageName": "/asset/company-logo/argus.png",
         "companyName": "Felicia",
         "content": [
           "I like my hair on the arms and fingers xD",

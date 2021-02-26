@@ -33,8 +33,9 @@ export const Experience = () => {
       <ES.GridRow>
         <ES.StyledUl>
           {dateExperience?.experienceList?.map( ({jobRole, imageName}) => (
-            <ES.StyledLi>
+            <ES.StyledLi key={imageName}>
               <ES.StyledImg src={imageName}/>
+              {console.log(imageName)}
               {jobRole}
             </ES.StyledLi>
           ))}
