@@ -19,8 +19,15 @@ export const StyledUl = styled.ul`
 
 export const StyledLi = styled.li`
   border-top: 2px solid #707070;
+  padding: 20px;
 
   &:first-child {
     border-top: none;
   }
+`
+
+export const StyledImg = styled.img`
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 `
