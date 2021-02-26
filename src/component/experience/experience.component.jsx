@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react'
 import * as ES from './experience.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { ArrowDown } from '../arrow-down'
+import Arcadia from '../../asset/company-logo/arcadia.png'
+import Argus from '../../asset/company-logo/argus.png'
 
 export const Experience = () => {
 
@@ -27,7 +30,20 @@ export const Experience = () => {
 
       <HeaderIcon />
 
-      
+      <ES.GridRow>
+        <ES.StyledUl>
+          {dateExperience?.experienceList?.map( ({jobRole, imageName}) => (
+            <ES.StyledLi key={imageName}>
+              <ES.StyledImg src={imageName}/>
+              {console.log(imageName)}
+              {jobRole}
+            </ES.StyledLi>
+          ))}
+        </ES.StyledUl>
+      </ES.GridRow>
+
+      <ArrowDown />
+
     </ES.GridContainer>
   )
 }
