@@ -20,6 +20,7 @@ export const StyledUl = styled.ul`
 export const StyledLi = styled.li`
   border-top: 2px solid #707070;
   padding: 20px;
+  display: flex;
 
   &:first-child {
     border-top: none;
@@ -30,4 +31,24 @@ export const StyledImg = styled.img`
   width: 50px;
   height: 50px;
   border-radius: 50%;
+`
+
+export const StyledExpTextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+`
+
+export const StyledExpJobRole = styled.p`
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #808080;
+`
+
+export const StyledExpCompany = styled.p`
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
 `
