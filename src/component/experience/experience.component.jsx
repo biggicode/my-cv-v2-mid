@@ -3,6 +3,7 @@ import * as ES from './experience.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { ArrowDown } from '../arrow-down'
+import { arrowUp } from '../icomoon/config'
 import Arcadia from '../../asset/company-logo/arcadia.png'
 import Argus from '../../asset/company-logo/argus.png'
 
@@ -39,6 +40,9 @@ export const Experience = () => {
                 <ES.StyledExpJobRole>{jobRole}</ES.StyledExpJobRole>
                 <ES.StyledExpCompany>{companyName}</ES.StyledExpCompany>
               </ES.StyledExpTextWrapper>
+              <ES.StyledButtonDownWrapper>
+                <ES.StyledButtonDown { ...arrowUp }/>
+              </ES.StyledButtonDownWrapper>
             </ES.StyledLi>
           ))}
         </ES.StyledUl>

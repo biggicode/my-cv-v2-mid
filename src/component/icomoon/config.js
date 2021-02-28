@@ -2,6 +2,7 @@ const config = {
   icon: {
     youtube: "youtube",
     arrowDown: "arrow-down",
+    arrowUp: "arrow-up",
     download: "download",
     cross: "cross",
     link: "link",
@@ -19,7 +20,8 @@ const config = {
     white: "#FFF",
     red: "#d52027",
     orange: "#F18F1C",
-    green: "#50D166"
+    green: "#50D166",
+    grey: "#707070"
   }
 }
 
@@ -39,6 +41,12 @@ export const arrowDownConfig = {
   icon:config.icon.arrowDown,
   size:config.size.large,
   color:config.color.white
+}
+
+export const arrowUp = {
+  icon:config.icon.arrowUp,
+  size:config.size.small,
+  color:config.color.grey
 }
 
 export const crossConfig = {

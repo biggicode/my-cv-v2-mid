@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Icon } from '../icomoon'
 
 export const GridContainer = styled.div`
   display: grid;
@@ -51,4 +52,19 @@ export const StyledExpCompany = styled.p`
   font-size: 12px;
   font-style: italic;
   line-height: 20px;
+`
+
+export const StyledButtonDownWrapper = styled.div`
+  border: 2px solid #707070;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+`
+
+export const StyledButtonDown = styled(Icon)`
+  transform: rotate(180deg);
 `
