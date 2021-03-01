@@ -4,7 +4,7 @@ import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
 import { ArrowDown } from '../arrow-down'
-import { bookConfig, trophyConfig, heartConfig, iconsForLegend } from '../icomoon/config'
+import { iconsForLegend } from '../icomoon/config'
 
 const Skills = () => {
 
