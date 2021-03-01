@@ -26,6 +26,10 @@ export const StyledLi = styled.li`
   &:first-child {
     border-top: none;
   }
+
+  &:nth-child(even) {
+    flex-direction: column;
+  }
 `
 
 export const StyledImg = styled.img`
@@ -52,6 +56,20 @@ export const StyledExpCompany = styled.p`
   font-size: 12px;
   font-style: italic;
   line-height: 20px;
+`
+
+export const StyledExpDate = styled.p`
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 30px;
+`
+
+export const StyledExpText = styled.p`
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #707070;
 `
 
 export const StyledButtonDownWrapper = styled.div`
