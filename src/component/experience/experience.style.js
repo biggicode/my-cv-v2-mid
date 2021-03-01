@@ -26,6 +26,10 @@ export const StyledLi = styled.li`
   &:first-child {
     border-top: none;
   }
+
+  &:nth-child(even) {
+    flex-direction: column;
+  }
 `
 
 export const StyledImg = styled.img`
@@ -54,6 +58,20 @@ export const StyledExpCompany = styled.p`
   line-height: 20px;
 `
 
+export const StyledExpDate = styled.p`
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 30px;
+`
+
+export const StyledExpText = styled.p`
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #707070;
+`
+
 export const StyledButtonDownWrapper = styled.div`
   border: 2px solid #707070;
   border-radius: 50%;
@@ -66,5 +84,6 @@ export const StyledButtonDownWrapper = styled.div`
 `
 
 export const StyledButtonDown = styled(Icon)`
-  transform: rotate(180deg);
+  cursor: pointer;
+  transform: rotate(${({rotatie}) => rotatie ? '180deg' : '0deg'});
 `

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Fragment } from 'react'
 import * as ES from './experience.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
@@ -25,6 +25,19 @@ export const Experience = () => {
   []
   )
 
+  const handleClick = (key) => {
+    console.log(key)
+    console.log(dateExperience)
+    setDateExperience({
+      ...dateExperience,
+      experienceList: dateExperience.experienceList.map((experience, cheie) => ({
+        ...experience,
+        arataMa: key === cheie ? !experience.arataMa : experience.arataMa
+      }))
+    })
+  }
+  
+
   return (
     <ES.GridContainer>
       <Header title={dateExperience.sectionTitle}/>
@@ -33,17 +46,25 @@ export const Experience = () => {
 
       <ES.GridRow>
         <ES.StyledUl>
-          {dateExperience?.experienceList?.map( ({jobRole, imageName, companyName}) => (
-            <ES.StyledLi key={imageName}>
-              <ES.StyledImg src={imageName}/>
-              <ES.StyledExpTextWrapper>
-                <ES.StyledExpJobRole>{jobRole}</ES.StyledExpJobRole>
-                <ES.StyledExpCompany>{companyName}</ES.StyledExpCompany>
-              </ES.StyledExpTextWrapper>
-              <ES.StyledButtonDownWrapper>
-                <ES.StyledButtonDown { ...arrowUp }/>
-              </ES.StyledButtonDownWrapper>
-            </ES.StyledLi>
+          {dateExperience?.experienceList?.map( ({jobRole, imageName, companyName, date, content, arataMa}, key) => (
+            <Fragment>
+              <ES.StyledLi key={ key }>
+                <ES.StyledImg src={imageName}/>
+                <ES.StyledExpTextWrapper>
+                  <ES.StyledExpJobRole>{jobRole}</ES.StyledExpJobRole>
+                  <ES.StyledExpCompany>{companyName}</ES.StyledExpCompany>
+                </ES.StyledExpTextWrapper>
+                <ES.StyledButtonDownWrapper onClick={() => handleClick(key)}>
+                  <ES.StyledButtonDown { ...arrowUp } rotatie={ arataMa }/>
+                </ES.StyledButtonDownWrapper>
+              </ES.StyledLi>
+              {console.log(arataMa)}
+              {arataMa && <ES.StyledLi key={ key + 1}>
+                <ES.StyledExpDate>{ date }</ES.StyledExpDate>
+                <ES.StyledExpText>{ content[0] }</ES.StyledExpText>
+                <ES.StyledExpText>{ content[1] }</ES.StyledExpText>
+              </ES.StyledLi>}
+            </Fragment>
           ))}
         </ES.StyledUl>
       </ES.GridRow>
