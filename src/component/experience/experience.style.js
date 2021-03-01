@@ -84,5 +84,6 @@ export const StyledButtonDownWrapper = styled.div`
 `
 
 export const StyledButtonDown = styled(Icon)`
-  transform: rotate(180deg);
+  cursor: pointer;
+  transform: rotate(${({rotatie}) => rotatie ? '180deg' : '0deg'});
 `

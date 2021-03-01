@@ -36,6 +36,7 @@ export const Experience = () => {
       }))
     })
   }
+  
 
   return (
     <ES.GridContainer>
@@ -54,7 +55,7 @@ export const Experience = () => {
                   <ES.StyledExpCompany>{companyName}</ES.StyledExpCompany>
                 </ES.StyledExpTextWrapper>
                 <ES.StyledButtonDownWrapper onClick={() => handleClick(key)}>
-                  <ES.StyledButtonDown { ...arrowUp }/>
+                  <ES.StyledButtonDown { ...arrowUp } rotatie={ arataMa }/>
                 </ES.StyledButtonDownWrapper>
               </ES.StyledLi>
               {console.log(arataMa)}
