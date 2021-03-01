@@ -59,11 +59,11 @@ export const Experience = () => {
                 </ES.StyledButtonDownWrapper>
               </ES.StyledLi>
               {console.log(arataMa)}
-              {arataMa && <ES.StyledLi key={ key + 1}>
+              {arataMa && <ES.StyledSecondLi key={ key + 1}>
                 <ES.StyledExpDate>{ date }</ES.StyledExpDate>
                 <ES.StyledExpText>{ content[0] }</ES.StyledExpText>
                 <ES.StyledExpText>{ content[1] }</ES.StyledExpText>
-              </ES.StyledLi>}
+              </ES.StyledSecondLi>}
             </Fragment>
           ))}
         </ES.StyledUl>

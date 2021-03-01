@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { Icon } from '../icomoon'
 
 export const GridContainer = styled.div`
@@ -18,18 +18,23 @@ export const StyledUl = styled.ul`
   list-style-type: none;
 `
 
-export const StyledLi = styled.li`
+const standardLi = css`
   border-top: 2px solid #707070;
   padding: 20px;
+`
+
+export const StyledLi = styled.li`
+  ${ standardLi }
+
   display: flex;
 
   &:first-child {
     border-top: none;
   }
+`
 
-  &:nth-child(even) {
-    flex-direction: column;
-  }
+export const StyledSecondLi = styled.li`
+  ${ standardLi }
 `
 
 export const StyledImg = styled.img`
