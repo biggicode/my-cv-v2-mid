@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import * as OSS from './open-source.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { SemiTitle } from '../semi-title'
 
 export const OpenSource = () => {
 
@@ -27,8 +28,12 @@ export const OpenSource = () => {
   return (
     <OSS.StyledGrid>
       <Header title={dateOpenSource.sectionTitle}/>
-      
+
       <HeaderIcon />
+
+      <SemiTitle title={dateOpenSource.statsSection?.statsTitle}/>
+
+      <SemiTitle title={dateOpenSource.githubSection?.githubTitle}/>
 
     </OSS.StyledGrid>
   )
