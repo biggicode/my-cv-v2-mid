@@ -8,7 +8,10 @@ const config = {
     link: "link",
     book: "book",
     trophy: "trophy",
-    heart: "heart"
+    heart: "heart",
+    codewars: "codewars",
+    github: "github",
+    stackoverflow: "stackoverflow"
   },
   size: {
     small: 16,
@@ -17,12 +20,31 @@ const config = {
     extraLarge: 70
   },
   color: {
+    black: "#000",
     white: "#FFF",
     red: "#d52027",
     orange: "#F18F1C",
     green: "#50D166",
     grey: "#707070"
   }
+}
+
+export const codeWars = {
+  icon:config.icon.codwars,
+  size:config.size.small,
+  color:config.color.black
+}
+
+export const gitHub = {
+  icon:config.icon.github,
+  size:config.size.small,
+  color:config.color.black
+}
+
+export const stackOverFlow = {
+  icon:config.icon.stackoverflow,
+  size:config.size.small,
+  color:config.color.black
 }
 
 export const youtubeConfig = {
