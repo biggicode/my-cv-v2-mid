@@ -279,5 +279,99 @@
         ]
       }
     ]
-  }
+  },
+  "open-source": {
+    "sectionTitle": "Open source",
+    "statsSection": {
+      "statsTitle": "Stats",
+      "statsBox": [
+        {
+          "icon":"github",
+          "contentRow": [
+            "Contributions last year: 126",
+            "Longest streak: 41"  
+          ]
+        },
+        {
+          "icon":"codewars",
+          "contentRow": [
+            "Rank: 3kyu",
+            "Honor: 341"  
+          ]
+        },
+        {
+          "icon":"stackoverflow",
+          "contentRow": [
+            "Top: 70%",
+            "Reputation: 1241",
+            "People reached: 327",
+            "Answers: 17"
+          ]
+        }
+      ]
+    },
+    "githubSection": {
+      "githubTitle": "GitHub projects",
+      "githubProjects": [
+        {
+          "projectTitle": "My CV v2",
+          "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
+          "percentages": [
+            "JavaScript 11%",
+            "SCSS 32%",
+            "PUG 34%",
+            "JSON 23%"
+          ],
+          "githubNumbers": [
+            {
+              "icon": "commits",
+              "content": "Commits: 713"
+            },
+            {
+              "icon": "stars",
+              "content": "Stars: 16"
+            },
+            {
+              "icon": "forks",
+              "content": "Forks: 11"
+            }
+          ],
+          "projectDescription": "I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.",
+          "projectButton": {
+            "buttonIcon": "github",
+            "buttonText": "biggicode/my-cv-v2"
+          }
+        },
+        {
+          "projectTitle": "Pug Starter",
+          "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
+          "percentages": [
+            "JavaScript 11%",
+            "SCSS 32%",
+            "PUG 34%",
+            "JSON 23%"
+          ],
+          "githubNumbers": [
+            {
+              "icon": "commits",
+              "content": "Commits: 713"
+            },
+            {
+              "icon": "stars",
+              "content": "Stars: 16"
+            },
+            {
+              "icon": "forks",
+              "content": "Forks: 11"
+            }
+          ],
+          "projectDescription": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day.",
+          "projectButton": {
+            "buttonIcon": "github",
+            "buttonText": "biggicode/pug-starter"
+          }
+        }
+      ]
+    }
+  }  
 }
