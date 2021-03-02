@@ -12,6 +12,7 @@ const App = () => {
       <Contact/>
       <Skills/>
       <Experience/>
+      <OpenSource />
     </AS.StyledApp>
   )
 }
