@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 const standardUl = css`
   border: 2px solid #707070;
   border-radius: 6px;
+  list-style-type: none;
 `
 
 export const StyledGrid = styled.div`
@@ -21,4 +22,11 @@ export const StyledStatsList = styled.ul`
 
 export const StyledStatsLi = styled.li`
   padding: 10px;
+`
+
+export const StyledStatsText = styled.p`
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #707070;
 `

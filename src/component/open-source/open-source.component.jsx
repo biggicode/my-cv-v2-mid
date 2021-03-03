@@ -3,6 +3,7 @@ import * as OSS from './open-source.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
+import { Icon } from '../icomoon'
 
 export const OpenSource = () => {
 
@@ -29,9 +30,23 @@ export const OpenSource = () => {
     <OSS.StyledGrid>
       <Header title={dateOpenSource.sectionTitle}/>
 
+
       <HeaderIcon />
 
       <SemiTitle title={dateOpenSource.statsSection?.statsTitle}/>
+
+      <OSS.StyledRow>
+        <OSS.StyledStatsList>
+          {dateOpenSource.statsSection?.statsBox?.map(({icon, contentRow}) => (
+            <OSS.StyledStatsLi>
+              <Icon icon={icon}/>
+              {contentRow?.map((e) => (
+                <OSS.StyledStatsText>{e}</OSS.StyledStatsText>
+              ))}
+            </OSS.StyledStatsLi>
+          ))}
+        </OSS.StyledStatsList>
+      </OSS.StyledRow>
 
       <SemiTitle title={dateOpenSource.githubSection?.githubTitle}/>
 
