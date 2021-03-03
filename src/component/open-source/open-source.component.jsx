@@ -4,6 +4,7 @@ import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
 import { Icon } from '../icomoon'
+import { ArrowDown } from '../arrow-down'
 
 export const OpenSource = () => {
 
@@ -51,6 +52,22 @@ export const OpenSource = () => {
       </OSS.StyledRow>
 
       <SemiTitle title={dateOpenSource.githubSection?.githubTitle}/>
+
+      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies }) => (
+        <OSS.StyledRow>
+          <OSS.StyledGitHubList>
+            <OSS.StyledGitHubLi>
+              <OSS.StyledProjectName>{ projectTitle }</OSS.StyledProjectName>
+              <OSS.StyledProjectTehnologies>{ projectTehnologies }</OSS.StyledProjectTehnologies>
+            </OSS.StyledGitHubLi>
+            <OSS.StyledGitHubLi>
+              mere si pere
+            </OSS.StyledGitHubLi>
+          </OSS.StyledGitHubList>
+        </OSS.StyledRow>
+      ))}
+
+      <ArrowDown />
 
     </OSS.StyledGrid>
   )

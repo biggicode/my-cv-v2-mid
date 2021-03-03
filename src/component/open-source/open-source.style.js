@@ -21,6 +21,33 @@ export const StyledStatsList = styled.ul`
   ${ standardUl }
 `
 
+export const StyledProjectName = styled.p`
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #808080;
+`
+export const StyledProjectTehnologies = styled.p`
+  font-size: 12px;
+  color: #707070;
+  line-height: 20px;
+  font-style: italic;
+`
+
+export const StyledGitHubList = styled.ul`
+  ${ standardUl }
+`
+
+export const StyledGitHubLi = styled.li`
+  border-top: 2px solid #707070;
+  
+  &:first-child {
+    border-top: none;
+    padding: 20px 20px 10px 20px;
+  }
+`
+
 export const StyledStatsLi = styled.li`
   padding: 10px;
   border-bottom: 2px solid #707070;
