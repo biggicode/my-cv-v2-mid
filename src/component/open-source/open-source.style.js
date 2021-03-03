@@ -4,6 +4,7 @@ const standardUl = css`
   border: 2px solid #707070;
   border-radius: 6px;
   list-style-type: none;
+  background-color: #fff;
 `
 
 export const StyledGrid = styled.div`
@@ -22,6 +23,12 @@ export const StyledStatsList = styled.ul`
 
 export const StyledStatsLi = styled.li`
   padding: 10px;
+  border-bottom: 2px solid #707070;
+  display: flex;
+
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 export const StyledStatsText = styled.p`
@@ -29,4 +36,5 @@ export const StyledStatsText = styled.p`
   font-weight: bold;
   line-height: 22px;
   color: #707070;
+  padding-left: 17px;
 `
