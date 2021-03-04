@@ -53,16 +53,18 @@ export const OpenSource = () => {
 
       <SemiTitle title={dateOpenSource.githubSection?.githubTitle}/>
 
-      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies }) => (
+      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies , percentages}) => (
         <OSS.StyledRow>
           <OSS.StyledGitHubList>
             <OSS.StyledGitHubLi>
               <OSS.StyledProjectName>{ projectTitle }</OSS.StyledProjectName>
               <OSS.StyledProjectTehnologies>{ projectTehnologies }</OSS.StyledProjectTehnologies>
             </OSS.StyledGitHubLi>
-            <OSS.StyledGitHubLi>
-              mere si pere
-            </OSS.StyledGitHubLi>
+            <OSS.StyledGitHubLastLi>
+              {percentages?.map((e) => (
+                <OSS.StyledPercentage percentage={e}/>
+              ))}
+            </OSS.StyledGitHubLastLi>
           </OSS.StyledGitHubList>
         </OSS.StyledRow>
       ))}
