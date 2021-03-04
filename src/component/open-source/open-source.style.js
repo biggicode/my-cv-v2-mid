@@ -7,6 +7,27 @@ const standardUl = css`
   background-color: #fff;
 `
 
+export const StyledPercentage = styled.span`
+  width: ${({percentage}) => percentage};
+  height: 100%;
+
+  &:first-child {
+    background-color: #1875F0;
+  }
+
+  &:nth-child(2) {
+    background-color: #F0E218;
+  }
+
+  &:nth-child(3) {
+    background-color: #D52027;
+  }
+
+  &:last-child {
+    background-color: #20D55D;
+  }
+`
+
 export const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -48,6 +69,12 @@ export const StyledGitHubLi = styled.li`
   }
 `
 
+export const StyledGitHubLastLi = styled.li`
+  border-top: none;
+  height: 10px;
+  display: flex;
+`
+
 export const StyledStatsLi = styled.li`
   padding: 10px;
   border-bottom: 2px solid #707070;
@@ -55,6 +82,7 @@ export const StyledStatsLi = styled.li`
 
   &:last-child {
     border-bottom: none;
+    padding: 0px;
   }
 `
 
