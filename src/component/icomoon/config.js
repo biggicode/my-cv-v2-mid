@@ -1,5 +1,6 @@
 const config = {
   icon: {
+    info: "info",
     youtube: "youtube",
     arrowDown: "arrow-down",
     arrowUp: "arrow-up",
@@ -41,6 +42,23 @@ export const gitHub = {
   color:config.color.black
 }
 
+export const iconsOpenSource = {
+  youtubeWhite: {
+    icon:config.icon.youtube,
+    size:config.size.small,
+    color:config.color.white
+  },
+  gitHub: {
+    icon:config.icon.github,
+    size:config.size.small,
+    color:config.color.white
+  },
+  info: {
+    icon:config.icon.info,
+    size:config.size.small,
+    color:config.color.white
+  }
+}
 export const stackOverFlow = {
   icon:config.icon.stackoverflow,
   size:config.size.small,
@@ -52,6 +70,7 @@ export const youtubeConfig = {
   size:config.size.large,
   color:config.color.white
 }
+
 
 export const downloadConfig = {
   icon:config.icon.download,

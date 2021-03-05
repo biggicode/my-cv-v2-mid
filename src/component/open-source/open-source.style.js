@@ -93,3 +93,18 @@ export const StyledStatsText = styled.p`
   color: #707070;
   padding-left: 17px;
 `
+
+export const StyledListButtomWrapper = styled.div`
+  background-color: #FF006D;
+  width: 40px;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1px;
+
+  &:first-of-type {
+    margin-left: 70vw;
+  }
+`

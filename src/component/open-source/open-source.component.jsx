@@ -5,6 +5,7 @@ import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
 import { Icon } from '../icomoon'
 import { ArrowDown } from '../arrow-down'
+import { iconsOpenSource } from '../icomoon/config'
 
 export const OpenSource = () => {
 
@@ -66,6 +67,15 @@ export const OpenSource = () => {
               ))}
             </OSS.StyledGitHubLastLi>
           </OSS.StyledGitHubList>
+          <OSS.StyledListButtomWrapper>
+            <Icon {...iconsOpenSource.info}/>
+          </OSS.StyledListButtomWrapper>
+          <OSS.StyledListButtomWrapper>
+            <Icon {...iconsOpenSource.youtubeWhite}/>
+          </OSS.StyledListButtomWrapper>
+          <OSS.StyledListButtomWrapper>
+            <Icon {...iconsOpenSource.gitHub}/>
+          </OSS.StyledListButtomWrapper>
         </OSS.StyledRow>
       ))}
 
