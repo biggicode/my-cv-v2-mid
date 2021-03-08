@@ -66,16 +66,16 @@ export const OpenSource = () => {
                 <OSS.StyledPercentage percentage={e}/>
               ))}
             </OSS.StyledGitHubLastLi>
+            <OSS.StyledListButtomWrapper>
+              <Icon {...iconsOpenSource.info}/>
+            </OSS.StyledListButtomWrapper>
+            <OSS.StyledListButtomWrapper>
+              <Icon {...iconsOpenSource.youtubeWhite}/>
+            </OSS.StyledListButtomWrapper>
+            <OSS.StyledListButtomWrapper>
+              <Icon {...iconsOpenSource.gitHub}/>
+            </OSS.StyledListButtomWrapper>
           </OSS.StyledGitHubList>
-          <OSS.StyledListButtomWrapper>
-            <Icon {...iconsOpenSource.info}/>
-          </OSS.StyledListButtomWrapper>
-          <OSS.StyledListButtomWrapper>
-            <Icon {...iconsOpenSource.youtubeWhite}/>
-          </OSS.StyledListButtomWrapper>
-          <OSS.StyledListButtomWrapper>
-            <Icon {...iconsOpenSource.gitHub}/>
-          </OSS.StyledListButtomWrapper>
         </OSS.StyledRow>
       ))}
 
