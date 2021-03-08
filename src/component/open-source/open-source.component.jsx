@@ -27,10 +27,17 @@ export const OpenSource = () => {
     []
   )
 
-  const handleClick = () => {
-    setDateOpenSource(
-      ...dateOpenSource
-    )
+  const handleClick = (key) => {
+    setDateOpenSource({
+      ...dateOpenSource,
+      githubSection: {
+        ...githubSection,
+        githubProjects: dateOpenSource.githubSection.githubProjects.map((projects, cheie) => ({
+          ...projects,
+          arataMa: key === cheie ? !projects.arataMa : projects.arataMa
+        }))
+      }
+    })
   }
 
 
@@ -60,7 +67,7 @@ export const OpenSource = () => {
 
       <SemiTitle title={dateOpenSource.githubSection?.githubTitle}/>
 
-      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies , percentages, percentagesBar, githubNumbers, projectDescription }, key) => (
+      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies , percentages, percentagesBar, githubNumbers, projectDescription, arataMa }, key) => (
         <OSS.StyledRow>
           <OSS.StyledGitHubList key={key}>
             <OSS.StyledGitHubLi>
