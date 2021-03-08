@@ -75,6 +75,7 @@ export const StyledGitHubLi = styled.li`
 
 export const StyledSecondGitHubLi = styled.li`
   padding: 20px;
+  border-top: 2px solid #707070;
 `
 
 export const StyledSecondLiText = styled.p`
@@ -86,6 +87,7 @@ export const StyledSecondLiText = styled.p`
 
 export const StyledThirdGitHubLi = styled.li`
   padding: 20px;
+  border-top: 2px solid #707070;
   text-align: center;
 `
 
@@ -94,6 +96,9 @@ export const StyledThirdLiText = styled.div`
   line-height: 30px;
   color: #707070;
   font-weight: 500;
+`
+export const StyledThirdLiIcon = styled.span`
+  padding-right: 10px;
 `
 
 export const StyledGitHubLastLi = styled.li`

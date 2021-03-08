@@ -83,7 +83,10 @@ export const OpenSource = () => {
               </OSS.StyledSecondGitHubLi>
               <OSS.StyledThirdGitHubLi>
                   {githubNumbers?.map(({icon, content}) => (
-                    <OSS.StyledThirdLiText>{content}</OSS.StyledThirdLiText>
+                    <OSS.StyledThirdLiText>
+                      <OSS.StyledThirdLiIcon className={`icon__${icon}`}/>
+                      {content}
+                    </OSS.StyledThirdLiText>
                   ))}
               </OSS.StyledThirdGitHubLi>
               <OSS.StyledGitHubLi>
