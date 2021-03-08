@@ -90,7 +90,7 @@ export const OpenSource = () => {
                   ))}
               </OSS.StyledThirdGitHubLi>
               <OSS.StyledGitHubLi>
-                  <OSS.StyledSecondLiText>{projectDescription}</OSS.StyledSecondLiText>
+                  <OSS.StyledFourthLiText>{projectDescription}</OSS.StyledFourthLiText>
               </OSS.StyledGitHubLi>
             </Fragment>}
             <OSS.StyledGitHubLastLi>

@@ -7,6 +7,24 @@ const standardUl = css`
   background-color: #fff;
 `
 
+const standardText = css`
+  font-size: 14px;
+  color: #707070;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+`
+
+const percentageCircle = css`
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 8px;
+  left: -15px;
+`
+
 export const StyledPercentage = styled.span`
   width: ${({percentage}) => percentage};
   height: 100%;
@@ -74,15 +92,35 @@ export const StyledGitHubLi = styled.li`
 `
 
 export const StyledSecondGitHubLi = styled.li`
-  padding: 20px;
+  padding: 20px 20px 10px 43px;
   border-top: 2px solid #707070;
+  display: grid;
+  grid-template-columns: repeat( 2, 1fr);
+  grid-gap: 0px 8px;
 `
 
 export const StyledSecondLiText = styled.p`
-  font-size: 14px;
-  color: #707070;
-  line-height: 30px;
-  font-weight: 500;
+  ${standardText}
+
+  &:first-child::before {
+    ${percentageCircle}
+    background-color: #1875F0;
+  }
+
+  &:nth-of-type(2)::before {
+    ${percentageCircle}
+    background-color: #D52027;
+  }
+
+  &:nth-of-type(3)::before {
+    ${percentageCircle}
+    background-color: #20D55D;
+  }
+
+  &:last-child::before {
+    ${percentageCircle}
+    background-color:#F0E218;
+  }
 `
 
 export const StyledThirdGitHubLi = styled.li`
@@ -99,6 +137,10 @@ export const StyledThirdLiText = styled.div`
 `
 export const StyledThirdLiIcon = styled.span`
   padding-right: 10px;
+`
+
+export const StyledFourthLiText = styled.p`
+  ${standardText}
 `
 
 export const StyledGitHubLastLi = styled.li`
@@ -136,7 +178,7 @@ export const StyledListButtomWrapper = styled.div`
   justify-content: center;
   margin-right: 1px;
   position: absolute;
-  bottom: -40px;
+  bottom: -42px;
   right: 51px;
 
   &:first-of-type {
