@@ -31,10 +31,10 @@ export const OpenSource = () => {
     setDateOpenSource({
       ...dateOpenSource,
       githubSection: {
-        ...githubSection,
-        githubProjects: dateOpenSource.githubSection.githubProjects.map((projects, cheie) => ({
-          ...projects,
-          arataMa: key === cheie ? !projects.arataMa : projects.arataMa
+        ...dateOpenSource.githubSection,
+        githubProjects: dateOpenSource.githubSection.githubProjects.map((project, cheie) => ({
+          ...project,
+          arataMa: key === cheie ? !project.arataMa : project.arataMa
         }))
       }
     })
