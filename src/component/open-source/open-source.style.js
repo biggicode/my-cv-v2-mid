@@ -55,6 +55,7 @@ export const StyledProjectTehnologies = styled.p`
   line-height: 20px;
   font-style: italic;
 `
+//Github list
 
 export const StyledGitHubList = styled.ul`
   ${ standardUl }
@@ -64,11 +65,35 @@ export const StyledGitHubList = styled.ul`
 
 export const StyledGitHubLi = styled.li`
   border-top: 2px solid #707070;
+  padding: 20px;
 
   &:first-child {
     border-top: none;
     padding: 20px 20px 10px 20px;
   }
+`
+
+export const StyledSecondGitHubLi = styled.li`
+  padding: 20px;
+`
+
+export const StyledSecondLiText = styled.p`
+  font-size: 14px;
+  color: #707070;
+  line-height: 30px;
+  font-weight: 500;
+`
+
+export const StyledThirdGitHubLi = styled.li`
+  padding: 20px;
+  text-align: center;
+`
+
+export const StyledThirdLiText = styled.div`
+  font-size: 16px;
+  line-height: 30px;
+  color: #707070;
+  font-weight: 500;
 `
 
 export const StyledGitHubLastLi = styled.li`

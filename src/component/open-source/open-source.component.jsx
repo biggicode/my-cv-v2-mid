@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Fragment } from 'react'
 import * as OSS from './open-source.style'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
@@ -27,6 +27,12 @@ export const OpenSource = () => {
     []
   )
 
+  const handleClick = () => {
+    setDateOpenSource(
+      ...dateOpenSource
+    )
+  }
+
 
   return (
     <OSS.StyledGrid>
@@ -54,19 +60,35 @@ export const OpenSource = () => {
 
       <SemiTitle title={dateOpenSource.githubSection?.githubTitle}/>
 
-      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies , percentages}) => (
+      {dateOpenSource?.githubSection?.githubProjects?.map(({ projectTitle, projectTehnologies , percentages, percentagesBar, githubNumbers, projectDescription }, key) => (
         <OSS.StyledRow>
-          <OSS.StyledGitHubList>
+          <OSS.StyledGitHubList key={key}>
             <OSS.StyledGitHubLi>
               <OSS.StyledProjectName>{ projectTitle }</OSS.StyledProjectName>
               <OSS.StyledProjectTehnologies>{ projectTehnologies }</OSS.StyledProjectTehnologies>
             </OSS.StyledGitHubLi>
+            { arataMa && 
+            <Fragment>
+              <OSS.StyledSecondGitHubLi>
+                {percentages?.map((e) => (
+                  <OSS.StyledSecondLiText>{e}</OSS.StyledSecondLiText>
+                ))}
+              </OSS.StyledSecondGitHubLi>
+              <OSS.StyledThirdGitHubLi>
+                  {githubNumbers?.map(({icon, content}) => (
+                    <OSS.StyledThirdLiText>{content}</OSS.StyledThirdLiText>
+                  ))}
+              </OSS.StyledThirdGitHubLi>
+              <OSS.StyledGitHubLi>
+                  <OSS.StyledSecondLiText>{projectDescription}</OSS.StyledSecondLiText>
+              </OSS.StyledGitHubLi>
+            </Fragment>}
             <OSS.StyledGitHubLastLi>
-              {percentages?.map((e) => (
+              {percentagesBar?.map((e) => (
                 <OSS.StyledPercentage percentage={e}/>
               ))}
             </OSS.StyledGitHubLastLi>
-            <OSS.StyledListButtomWrapper>
+            <OSS.StyledListButtomWrapper onClick = {() => handleClick(key)}>
               <Icon {...iconsOpenSource.info}/>
             </OSS.StyledListButtomWrapper>
             <OSS.StyledListButtomWrapper>
