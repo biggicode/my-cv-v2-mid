@@ -352,6 +352,12 @@
           "projectTitle": "Pug Starter",
           "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
           "percentages": [
+            "Javascript 11%",
+            "SCSS 32%",
+            "PUG 34%",
+            "JSON 23%"
+          ],
+          "percentagesBar": [
             "11%",
             "32%",
             "34%",
