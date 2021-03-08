@@ -58,11 +58,13 @@ export const StyledProjectTehnologies = styled.p`
 
 export const StyledGitHubList = styled.ul`
   ${ standardUl }
+  position: relative;
+  margin-bottom: 50px;
 `
 
 export const StyledGitHubLi = styled.li`
   border-top: 2px solid #707070;
-  
+
   &:first-child {
     border-top: none;
     padding: 20px 20px 10px 20px;
@@ -103,8 +105,15 @@ export const StyledListButtomWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-right: 1px;
+  position: absolute;
+  bottom: -40px;
+  right: 51px;
 
   &:first-of-type {
-    margin-left: 70vw;
+    right: 92px;
+  }
+
+  &:last-of-type {
+    right: 10px;
   }
 `
