@@ -31,6 +31,20 @@ export const Portfolio = () => {
 
       <SemiTitle title={datePortfolio.semiTitle}/>
 
+      {datePortfolio.portofolioProjects?.map(({projectTitle, projectTehnologies, projectImagePath}) => (
+        <PS.StyledUl>
+          <PS.StyledLi>
+            <PS.StyledProjectName>{projectTitle}</PS.StyledProjectName>
+            <PS.StyledProjectDescription>{projectTehnologies}</PS.StyledProjectDescription>
+          </PS.StyledLi>
+          <PS.StyledLi>
+
+          </PS.StyledLi>
+      </PS.StyledUl>
+      ))}
+
+      
+
     </PS.StyledGrid>
   )
 }
