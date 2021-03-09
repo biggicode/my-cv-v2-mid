@@ -1,4 +1,5 @@
 import React, { useEffect, useState} from 'react'
+import { Header } from '../header'
 import * as PS from './portfolio.style'
 
 export const Portfolio = () => {
@@ -20,8 +21,10 @@ export const Portfolio = () => {
   )
 
   return(
-    <div>
-      {datePortfolio.sectionTitle}
-    </div>
+    <PS.StyledGrid>
+      <Header title={datePortfolio.sectionTitle}/>
+
+
+    </PS.StyledGrid>
   )
 }
