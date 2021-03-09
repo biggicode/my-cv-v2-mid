@@ -17,6 +17,8 @@ export const StyledUl = styled.ul`
   list-style-type: none;
   grid-column: span  4;
   max-width: 302px;
+  position: relative;
+  margin-bottom: 50px;
 `
 
 export const StyledLi = styled.li`
@@ -43,4 +45,21 @@ export const StyledProjectDescription = styled.p`
 export const StyledImage = styled.img`
   max-width: 100%;
   height: 100px;
+`
+
+export const StyledIconWrapper = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+  background-color: #FF006D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  bottom: -42px;
+
+  &:last-child {
+    right: 51px;
+  }
 `

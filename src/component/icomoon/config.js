@@ -1,5 +1,6 @@
 const config = {
   icon: {
+    earth: "earth",
     info: "info",
     youtube: "youtube",
     arrowDown: "arrow-down",
@@ -28,6 +29,12 @@ const config = {
     green: "#50D166",
     grey: "#707070"
   }
+}
+
+export const earth = {
+  icon:config.icon.earth,
+  size:config.size.small,
+  color:config.color.white
 }
 
 export const codeWars = {
