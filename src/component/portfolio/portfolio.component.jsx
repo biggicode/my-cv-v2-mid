@@ -2,6 +2,9 @@ import React, { useEffect, useState} from 'react'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
+import { Icon } from '../icomoon'
+import { iconsOpenSource, earth } from '../icomoon/config'
+import { ArrowDown } from '../arrow-down'
 import * as PS from './portfolio.style'
 
 export const Portfolio = () => {
@@ -40,10 +43,12 @@ export const Portfolio = () => {
           <PS.StyledLi>
             <PS.StyledImage src={projectImagePath}/>
           </PS.StyledLi>
+          <PS.StyledIconWrapper><Icon {...iconsOpenSource.gitHub}/></PS.StyledIconWrapper>
+          <PS.StyledIconWrapper><Icon {...earth}/></PS.StyledIconWrapper>
       </PS.StyledUl>
       ))}
 
-      
+      <ArrowDown />
 
     </PS.StyledGrid>
   )
