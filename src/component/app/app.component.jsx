@@ -4,6 +4,7 @@ import { Skills } from '../skills'
 import { Welcome } from '../welcome'
 import { Experience } from '../experience'
 import { OpenSource } from '../open-source'
+import { Portfolio } from '../portfolio'
 import * as AS from './app.style'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Skills/>
       <Experience/>
       <OpenSource />
+      <Portfolio />
     </AS.StyledApp>
   )
 }
