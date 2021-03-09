@@ -37,3 +37,8 @@ export const StyledProjectDescription = styled.p`
   line-height: 20px;
   color: #707070;
 `
+
+export const StyledImage = styled.img`
+  max-width: 100%;
+  height: 100px;
+`
