@@ -38,7 +38,7 @@ export const Portfolio = () => {
             <PS.StyledProjectDescription>{projectTehnologies}</PS.StyledProjectDescription>
           </PS.StyledLi>
           <PS.StyledLi>
-
+            <PS.StyledImage src={projectImagePath}/>
           </PS.StyledLi>
       </PS.StyledUl>
       ))}

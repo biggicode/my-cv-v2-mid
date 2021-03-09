@@ -16,11 +16,13 @@ export const StyledUl = styled.ul`
   background-color: #fff;
   list-style-type: none;
   grid-column: span  4;
+  max-width: 302px;
 `
 
 export const StyledLi = styled.li`
   &:first-of-type {
     padding: 10px 20px;
+    border-bottom: 2px solid #707070;
   }
 `
 
