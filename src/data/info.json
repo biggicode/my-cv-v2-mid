@@ -385,5 +385,31 @@
         }
       ]
     }
-  }  
+  },
+  "portfolio": {
+    "sectionTitle": "Portfolio",
+    "semiTitle": "Recent",
+    "portofolioProjects": [
+      {
+        "projectTitle": "Pug Starter",
+        "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
+        "projectImagePath":"asset/image/portofolio/hotel-atena.jpg" 
+      },
+      {
+        "projectTitle": "My CV v2",
+        "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
+        "projectImagePath":"asset/image/portofolio/imobiliare-ro.jpg"
+      },
+      {
+        "projectTitle": "Livada Voinesti",
+        "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
+        "projectImagePath":"asset/image/portofolio/jnf-construction.jpg"
+      },
+      {
+        "projectTitle": "Tandemul Oncescu",
+        "projectTehnologies": "HTML, CSS, Git, JavaScript, SEO, Optimise",
+        "projectImagePath":"asset/image/portofolio/hibashipping.jpg"
+      }
+    ]
+  }
 }
