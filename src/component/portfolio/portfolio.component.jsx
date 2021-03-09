@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { SemiTitle } from '../semi-title'
 import * as PS from './portfolio.style'
 
 export const Portfolio = () => {
@@ -27,6 +28,8 @@ export const Portfolio = () => {
       <Header title={datePortfolio.sectionTitle}/>
 
       <HeaderIcon />
+
+      <SemiTitle title={datePortfolio.semiTitle}/>
 
     </PS.StyledGrid>
   )
