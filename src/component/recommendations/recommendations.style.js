@@ -17,6 +17,14 @@ export const StyledRecomHeader = styled.div`
   display: flex;
 `
 
+export const StyledAvatar = styled.img`
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  width: 62px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  height: 62px;
+`
+
 export const StyledRecomBox = styled.div`
   padding: 20px;
   background-color: #fff;

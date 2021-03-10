@@ -27,13 +27,13 @@ export const Recommendations = () => {
 
       <HeaderIcon />
 
-      {dateRecom.recomandariList.map(() => (
+      {dateRecom.recomandariList.map(({profilePicture, profileName, profileJob, recomText}) => (
         <RS.StyledRecom>
           <RS.StyledRecomHeader>
-
+            <RS.StyledAvatar src={profilePicture}/>
           </RS.StyledRecomHeader>
           <RS.StyledRecomBox>
-            mere si pere
+            
           </RS.StyledRecomBox>
         </RS.StyledRecom>
       ))}
