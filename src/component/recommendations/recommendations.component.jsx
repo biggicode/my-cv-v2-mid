@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Header } from '../header'
 import * as RS from './recommendations.style'
 
 export const Recommendations = () => {
@@ -20,8 +21,9 @@ export const Recommendations = () => {
   )
 
   return (
-    <div>
-      
-    </div>
+    <RS.StyledGrid>
+      <Header title={dateRecom.sectionTitle}/>
+
+    </RS.StyledGrid>
   )
 }
