@@ -40,6 +40,21 @@ export const StyledRecomBox = styled.div`
   border-radius: 6px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   margin-top: 25px;
+  margin-bottom: 30px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
 `
 
 //Recom text

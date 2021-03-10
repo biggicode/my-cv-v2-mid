@@ -27,7 +27,7 @@ export const Recommendations = () => {
 
       <HeaderIcon />
 
-      {dateRecom.recomandariList.map(({profilePicture, profileName, profileJob, recomText}) => (
+      {dateRecom.recomandariList?.map(({profilePicture, profileName, profileJob, recomText}) => (
         <RS.StyledRecom>
           <RS.StyledRecomHeader>
             <RS.StyledAvatar src={profilePicture}/>
