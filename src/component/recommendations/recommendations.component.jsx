@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header'
+import { HeaderIcon } from '../header-icon'
 import * as RS from './recommendations.style'
 
 export const Recommendations = () => {
@@ -23,6 +24,8 @@ export const Recommendations = () => {
   return (
     <RS.StyledGrid>
       <Header title={dateRecom.sectionTitle}/>
+
+      <HeaderIcon />
 
     </RS.StyledGrid>
   )
