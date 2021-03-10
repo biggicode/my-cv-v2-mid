@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
+import { ArrowDown } from '../arrow-down'
 import * as RS from './recommendations.style'
 
 export const Recommendations = () => {
@@ -41,6 +42,8 @@ export const Recommendations = () => {
           </RS.StyledRecomBox>
         </RS.StyledRecom>
       ))}
+
+        <ArrowDown />
     </RS.StyledGrid>
   )
 }
