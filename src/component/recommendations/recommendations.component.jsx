@@ -27,6 +27,16 @@ export const Recommendations = () => {
 
       <HeaderIcon />
 
+      {dateRecom.recomandariList.map(() => (
+        <RS.StyledRecom>
+          <RS.StyledRecomHeader>
+
+          </RS.StyledRecomHeader>
+          <RS.StyledRecomBox>
+            mere si pere
+          </RS.StyledRecomBox>
+        </RS.StyledRecom>
+      ))}
     </RS.StyledGrid>
   )
 }
