@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header'
 import { HeaderIcon } from "../header-icon"
+import { ArrowDown } from '../arrow-down'
 import * as RES from './reviews.style'
 
 export const Reviews = () => {
@@ -26,6 +27,23 @@ export const Reviews = () => {
       <Header title={dateReviews.sectionTitle}/>
 
       <HeaderIcon />
+
+      {dateReviews.reviewsList?.map(({profilePicture, reviewerName, reviewDate, review}) => (
+        <RES.StyledReview>
+          <RES.StyledReviewHeader>
+            <RES.StyledImage src={profilePicture}/>
+            <RES.StyledHeaderText>
+              <RES.StyledReviewerName>{reviewerName}</RES.StyledReviewerName>
+              <RES.StyledReviewDate>{reviewDate}</RES.StyledReviewDate>
+            </RES.StyledHeaderText>
+          </RES.StyledReviewHeader>
+          <RES.StyledReviewContentBox>
+            <RES.StyledContextBoxText>{review}</RES.StyledContextBoxText>
+          </RES.StyledReviewContentBox>
+        </RES.StyledReview>
+      ))}
+
+        <ArrowDown />
 
     </RES.StyledGrid>
   )
