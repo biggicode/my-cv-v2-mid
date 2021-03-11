@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header'
+import { HeaderIcon } from "../header-icon"
 import * as RES from './reviews.style'
 
 export const Reviews = () => {
@@ -23,6 +24,8 @@ export const Reviews = () => {
   return (
     <RES.StyledGrid>
       <Header title={dateReviews.sectionTitle}/>
+
+      <HeaderIcon />
 
     </RES.StyledGrid>
   )
