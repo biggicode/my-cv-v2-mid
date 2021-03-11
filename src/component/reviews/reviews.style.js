@@ -34,3 +34,26 @@ export const StyledReviewContentBox = styled.div`
     clip-path: polygon(-6px -6px, 100% 0, 0 100%);
   }
 `
+
+//Text styling
+
+export const StyledContextBoxText = styled.p`
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #707070;
+`
+
+export const StyledReviewerName = styled.p`
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #808080;
+`
+
+export const StyledReviewDate = styled.p`
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #1875F0;
+`
