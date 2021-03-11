@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Header } from '../header'
 import * as RES from './reviews.style'
 
 export const Reviews = () => {
@@ -20,8 +21,9 @@ export const Reviews = () => {
   )
 
   return (
-    <div>
-      
-    </div>
+    <RES.StyledGrid>
+      <Header title={dateReviews.sectionTitle}/>
+
+    </RES.StyledGrid>
   )
 }
