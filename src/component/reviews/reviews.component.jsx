@@ -27,6 +27,17 @@ export const Reviews = () => {
 
       <HeaderIcon />
 
+      {dateReviews.reviewsList.map(({profilePicture, reviewerName, reviewDate, review}) => (
+        <RES.StyledReview>
+          <RES.StyledReviewHeader>
+
+          </RES.StyledReviewHeader>
+          <RES.StyledReviewContentBox>
+            
+          </RES.StyledReviewContentBox>
+        </RES.StyledReview>
+      ))}
+
     </RES.StyledGrid>
   )
 }
