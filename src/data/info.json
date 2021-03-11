@@ -428,5 +428,28 @@
         "recomText": "Laurentiu has done a fantastic job on UI development while working for me on a Digital Transformation Programme of work at Direct Line. His work rate is high and output is of equally high quality. He has proved to be a great enabler in assisting me to deliver the Programme of work that I have been overseeing."
       }
     ]
+  },
+  "reviews": {
+    "sectionTitle": "Reviews",
+    "reviewsList": [
+      {
+        "profilePicture": "/asset/image/marian.jpg",
+        "reviewerName": "Stelica Stefania",
+        "reviewDate": "12 January 2021",
+        "review": "Great content , these things you will learn will change your life for better"
+      },
+      {
+        "profilePicture": "/asset/image/marian.jpg",
+        "reviewerName": "Omu Paiangan",
+        "reviewDate": "03 January 2021",
+        "review": "Your videos helped me climb a tree"
+      },
+      {
+        "profilePicture": "/asset/image/marian.jpg",
+        "reviewerName": "Baba Cloanta",
+        "reviewDate": "26 March 2021",
+        "review": "Aww I hope i don't fall"
+      }
+    ]
   }
 }
