@@ -19,11 +19,13 @@ export const StyledImage = styled.img`
   width: 62px;
   height: 62px;
   border-radius: 50%;
+  margin-right: 12px;
 `
 
 export const StyledHeaderText = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
 `
 
 export const StyledReviewContentBox = styled.div`
@@ -32,6 +34,7 @@ export const StyledReviewContentBox = styled.div`
   background-color: #fff;
   padding: 20px;
   position: relative;
+  margin-top: 25px;
 
   &::after {
     content: '';

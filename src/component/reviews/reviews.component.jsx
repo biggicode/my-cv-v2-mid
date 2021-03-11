@@ -27,13 +27,17 @@ export const Reviews = () => {
 
       <HeaderIcon />
 
-      {dateReviews.reviewsList.map(({profilePicture, reviewerName, reviewDate, review}) => (
+      {dateReviews.reviewsList?.map(({profilePicture, reviewerName, reviewDate, review}) => (
         <RES.StyledReview>
           <RES.StyledReviewHeader>
-
+            <RES.StyledImage src={profilePicture}/>
+            <RES.StyledHeaderText>
+              <RES.StyledReviewerName>{reviewerName}</RES.StyledReviewerName>
+              <RES.StyledReviewDate>{reviewDate}</RES.StyledReviewDate>
+            </RES.StyledHeaderText>
           </RES.StyledReviewHeader>
           <RES.StyledReviewContentBox>
-            
+            <RES.StyledContextBoxText>{review}</RES.StyledContextBoxText>
           </RES.StyledReviewContentBox>
         </RES.StyledReview>
       ))}
