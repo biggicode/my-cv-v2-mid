@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header'
 import { HeaderIcon } from "../header-icon"
+import { ArrowDown } from '../arrow-down'
 import * as RES from './reviews.style'
 
 export const Reviews = () => {
@@ -41,6 +42,8 @@ export const Reviews = () => {
           </RES.StyledReviewContentBox>
         </RES.StyledReview>
       ))}
+
+        <ArrowDown />
 
     </RES.StyledGrid>
   )
