@@ -451,5 +451,31 @@
         "review": "Aww I hope i don't fall"
       }
     ]
+  },
+  "proud": {
+    "sectionTitle": "I'm proud",
+    "semiTitle": "Awards and Achievements",
+    "proudList": [
+      {
+        "date": "2009 - 2010",
+        "proudText": "I've mentored and helped land a job or get promoted over 30 people as web developers across all levels: junior, mid and senior."
+      },
+      {
+        "date": "2012 - 2014",
+        "proudText": "I had 2 cows and 3 pigs and I go farming everyday"
+      },
+      {
+        "date": "2011 - 2015",
+        "proudText": "I've raised close to 100,000 subscribers and more than 5 million views across the social networks CodeTap is present on helping young developers jumpstart their career all over the world."
+      },
+      {
+        "date": "1998 - 1999",
+        "proudText": "I learned to walk "
+      },
+      {
+        "date": "2006 - 2017",
+        "proudText": "I walked everyday at lest 2km to go to school."
+      }
+    ]
   }
 }
