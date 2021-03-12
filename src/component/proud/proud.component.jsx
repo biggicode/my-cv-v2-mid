@@ -39,6 +39,8 @@ export const Proud = () => {
         ))}
       </SP.StyledUl>
 
+      <SP.StyledArrowDown />
+
     </SP.StyledGrid>
   )
 }
