@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import * as SP from './proud.style'
 
 export const Proud = () => {
 
@@ -19,8 +20,8 @@ export const Proud = () => {
   )
 
   return (
-    <div>
+    <SP.StyledGrid>
       
-    </div>
+    </SP.StyledGrid>
   )
 }
