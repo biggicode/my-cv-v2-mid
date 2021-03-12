@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { ArrowDown } from '../arrow-down'
 import { Header } from '../header'
 import { HeaderIcon } from '../header-icon'
 import { SemiTitle } from '../semi-title'
@@ -39,7 +40,9 @@ export const Proud = () => {
         ))}
       </SP.StyledUl>
 
-      <SP.StyledArrowDown />
+      <SP.StyledWrapper>
+        <ArrowDown />
+      </SP.StyledWrapper>
 
     </SP.StyledGrid>
   )

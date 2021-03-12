@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import { ArrowDown } from '../arrow-down'
 
-export const StyledArrowDown = styled(ArrowDown)`
+export const StyledWrapper = styled.div`
   transform: rotate(180deg);
+  grid-column: 1/-1;
 `
 
 export const StyledGrid = styled.div`
