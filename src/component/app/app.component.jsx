@@ -7,6 +7,7 @@ import { OpenSource } from '../open-source'
 import { Portfolio } from '../portfolio'
 import { Recommendations } from '../recommendations'
 import { Reviews } from '../reviews'
+import { Proud } from '../proud'
 import * as AS from './app.style'
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Portfolio />
       <Recommendations />
       <Reviews />
+      <Proud />
     </AS.StyledApp>
   )
 }
