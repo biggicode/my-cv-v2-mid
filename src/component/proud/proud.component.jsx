@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header'
+import { HeaderIcon } from '../header-icon'
 import * as SP from './proud.style'
 
 export const Proud = () => {
@@ -24,7 +25,7 @@ export const Proud = () => {
     <SP.StyledGrid>
       <Header title={dateProud.sectionTitle}/>
 
-      
+      <HeaderIcon />
 
     </SP.StyledGrid>
   )
