@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Header } from '../header'
 import * as SP from './proud.style'
 
 export const Proud = () => {
@@ -21,7 +22,10 @@ export const Proud = () => {
 
   return (
     <SP.StyledGrid>
+      <Header title={dateProud.sectionTitle}/>
+
       
+
     </SP.StyledGrid>
   )
 }
