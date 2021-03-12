@@ -27,3 +27,10 @@ export const StyledDate = styled.p`
   margin-bottom: 10px;
   text-align: left;
 `
+
+export const StyledText = styled.p`
+  font-size: 13px;
+  line-height: 22px;
+  font-style: italic;
+  color: #707070;
+`
