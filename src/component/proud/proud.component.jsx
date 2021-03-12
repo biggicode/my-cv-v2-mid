@@ -30,6 +30,15 @@ export const Proud = () => {
 
       <SemiTitle title={dateProud.semiTitle}/>
 
+      <SP.StyledUl>
+        {dateProud.proudList?.map(({date, proudText}) => (
+          <SP.StyledLi>
+            <SP.StyledDate>{date}</SP.StyledDate>
+            <SP.StyledText>{proudText}</SP.StyledText>
+          </SP.StyledLi>
+        ))}
+      </SP.StyledUl>
+
     </SP.StyledGrid>
   )
 }
