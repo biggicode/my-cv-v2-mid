@@ -5,7 +5,11 @@ export const Menu = () => {
 
   return (
     <MS.Menu>
-      aaa
+      <MS.Hamburger>
+        <MS.HamburgerLineOne />
+        <MS.HamburgerLineTwo />
+        <MS.HamburgerLineThree />
+      </MS.Hamburger>
     </MS.Menu>
   )
 }
