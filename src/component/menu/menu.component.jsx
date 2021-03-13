@@ -4,6 +4,8 @@ import * as MS from './menu.style'
 export const Menu = () => {
 
   return (
-    <div></div>
+    <MS.Menu>
+      aaa
+    </MS.Menu>
   )
 }
