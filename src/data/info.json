@@ -477,5 +477,19 @@
         "proudText": "I walked everyday at lest 2km to go to school."
       }
     ]
+  },
+  "menu": {
+    "menuList": [
+      "Let's get to know each other",
+      "Let's connect",
+      "Skills",
+      "Experience",
+      "Open source",
+      "Portfolio",
+      "Recommendations",
+      "Reviews",
+      "I'm proud"
+    ]
   }
+  
 }
