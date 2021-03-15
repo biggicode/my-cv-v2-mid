@@ -44,3 +44,15 @@ export const HamburgerLineThree = styled.div`
   height: 25%;
   background-color: #000;
 `
+
+export const StyledMenuLinks = styled.a`
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF006D;
+  height: 40px;
+  width: 100%;
+`
