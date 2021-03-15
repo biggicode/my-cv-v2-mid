@@ -10,7 +10,7 @@ export const Menu = styled.div`
   align-items: center;
   justify-content: center;
   position: sticky;
-  right: 10px;
+  right: -20px;
   bottom: 380px;
 `
 
