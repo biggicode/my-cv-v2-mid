@@ -9,8 +9,8 @@ export const Menu = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
-  right: -20px;
+  position: fixed;
+  right: 10px;
   bottom: 380px;
 `
 
