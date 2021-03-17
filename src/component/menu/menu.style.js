@@ -1,14 +1,23 @@
 import styled from 'styled-components'
 
+// export const Menu = styled.div`
+//   width: 40px;
+//   height: 40px;
+//   border: 2px solid #707070;
+//   background-color: #FFFFFF;
+//   border-radius: 6px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   position: fixed;
+//   right: 10px;
+//   bottom: 380px;
+// `
+
 export const Menu = styled.div`
-  width: 40px;
-  height: 40px;
   border: 2px solid #707070;
   background-color: #FFFFFF;
   border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: fixed;
   right: 10px;
   bottom: 380px;
@@ -50,9 +59,22 @@ export const StyledMenuLinks = styled.a`
   font-weight: 500;
   line-height: 30px;
   text-align: right;
-  color: #fff;
+  color: #808080;
   text-decoration: none;
-  background-color: #FF006D;
   height: 40px;
-  width: 100%;
+  display: block;
+  padding: 5px 20px;
+
+  &:hover {
+    background-color: #FF006D;
+    color: #fff;
+  }
+
+  &:last-child {
+    text-align: center;
+    font-size: 30px;
+    background-color: #FF006D;
+    color: #fff;
+    border-top: 2px solid #fff;
+  }
 `
