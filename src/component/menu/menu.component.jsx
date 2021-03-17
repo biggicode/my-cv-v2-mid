@@ -19,11 +19,15 @@ export const Menu = () => {
 
   return (
     <MS.Menu>
-      <MS.Hamburger>
+      {/* <MS.Hamburger>
         <MS.HamburgerLineOne />
         <MS.HamburgerLineTwo />
         <MS.HamburgerLineThree />
-      </MS.Hamburger>
+      </MS.Hamburger> */}
+      {dateMenu.menuList?.map((link)=>(
+        <MS.StyledMenuLinks>{link}</MS.StyledMenuLinks>
+      ))}
+      <MS.StyledMenuLinks><span className="icon__cross"></span></MS.StyledMenuLinks>
     </MS.Menu>
   )
 }
