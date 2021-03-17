@@ -17,17 +17,28 @@ export const Menu = () => {
     }
   },[])
 
+  let show = true;
+
+  const handleClick = () => {
+    setDateMenu({
+      ...dateMenu,
+      show: !show
+    })
+  }
+
   return (
-    <MS.Menu>
-      {/* <MS.Hamburger>
+    <MS.Menu onClick={() => handleClick()}>
+      { show && 
+      <MS.Hamburger>
         <MS.HamburgerLineOne />
         <MS.HamburgerLineTwo />
         <MS.HamburgerLineThree />
-      </MS.Hamburger> */}
-      {dateMenu.menuList?.map((link)=>(
+      </MS.Hamburger>}
+      
+      { !show && {dateMenu.menuList?.map((link)=>(
         <MS.StyledMenuLinks>{link}</MS.StyledMenuLinks>
       ))}
-      <MS.StyledMenuLinks><span className="icon__cross"></span></MS.StyledMenuLinks>
+      <MS.StyledMenuLinks><span className="icon__cross"></span></MS.StyledMenuLinks>}
     </MS.Menu>
   )
 }
