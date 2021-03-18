@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Menu = styled.div`
+export const Menu2 = styled.div`
   width: 40px;
   height: 40px;
   border: 2px solid #707070;
@@ -14,14 +14,14 @@ export const Menu = styled.div`
   bottom: 380px;
 `
 
-// export const Menu = styled.div`
-//   border: 2px solid #FF006D;
-//   background-color: #FFFFFF;
-//   border-radius: 6px;
-//   position: fixed;
-//   right: 10px;
-//   bottom: 380px;
-// `
+export const Menu = styled.div`
+  border: 2px solid #FF006D;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  position: fixed;
+  right: 10px;
+  bottom: 380px;
+`
 
 export const Hamburger = styled.div`
   width: 16px;
