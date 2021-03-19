@@ -21,7 +21,7 @@ const percentageCircle = css`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  top: 8px;
+  top: 9px;
   left: -15px;
 `
 
@@ -50,6 +50,11 @@ export const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
 `
 
 export const StyledRow = styled.div`
@@ -95,8 +100,14 @@ export const StyledSecondGitHubLi = styled.li`
   padding: 20px 20px 10px 43px;
   border-top: 2px solid #707070;
   display: grid;
-  grid-template-columns: repeat( 2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px 8px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 78px;
+    padding-bottom: 40px;
+  }
 `
 
 export const StyledSecondLiText = styled.p`
@@ -127,6 +138,12 @@ export const StyledThirdGitHubLi = styled.li`
   padding: 20px;
   border-top: 2px solid #707070;
   text-align: center;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
 `
 
 export const StyledThirdLiText = styled.div`
@@ -134,6 +151,10 @@ export const StyledThirdLiText = styled.div`
   line-height: 30px;
   color: #707070;
   font-weight: 500;
+
+  @media (min-width: 768px) {
+    padding-right: 40px;
+  }
 `
 export const StyledThirdLiIcon = styled.span`
   padding-right: 10px;
