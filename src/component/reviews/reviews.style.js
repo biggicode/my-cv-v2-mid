@@ -4,10 +4,15 @@ export const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
 `
 
 export const StyledReview = styled.div`
-  grid-column: 1/-1;
+  grid-column: span 4;
 `
 
 export const StyledReviewHeader = styled.div`
