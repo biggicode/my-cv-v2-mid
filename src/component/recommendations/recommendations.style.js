@@ -4,16 +4,17 @@ export const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-`
 
-export const StyledRow = styled.div`
-  grid-column: 1/-1;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
 `
 
 //Recom lists
 
 export const StyledRecom = styled.div`
-  grid-column: 1/-1;
+  grid-column: span 4;
 `
 export const StyledRecomHeader = styled.div`
   display: flex;

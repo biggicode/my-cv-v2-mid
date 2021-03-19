@@ -55,11 +55,11 @@ export const OpenSource = () => {
           {dateOpenSource.statsSection?.statsBox?.map(({icon, contentRow}) => (
             <OSS.StyledStatsLi>
               <Icon icon={icon} />
-              <div>
+              <OSS.StyledStatsLiContent>
                 {contentRow?.map((e) => (
                   <OSS.StyledStatsText>{e}</OSS.StyledStatsText>
                 ))}
-              </div>
+              </OSS.StyledStatsLiContent>
             </OSS.StyledStatsLi>
           ))}
         </OSS.StyledStatsList>
