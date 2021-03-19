@@ -156,7 +156,6 @@ export const StyledStatsLi = styled.li`
 
   &:last-child {
     border-bottom: none;
-    padding: 0px;
   }
 `
 
@@ -166,6 +165,15 @@ export const StyledStatsText = styled.p`
   line-height: 22px;
   color: #707070;
   padding-left: 17px;
+`
+
+export const StyledStatsLiContent = styled.div`
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-grow: 1;
+  }
 `
 
 export const StyledListButtomWrapper = styled.div`
