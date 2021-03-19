@@ -6,6 +6,11 @@ export const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
 `;
 
 export const StyledRow = styled.div`
@@ -88,7 +93,10 @@ export const StyledContactIcon = styled.i`
     font-size: 8vw;
     font-weight: normal;
     font-style: normal;
-    font-display: block;
+
+    @media (min-width: 768px) {
+      font-size: 4vw;
+    }
   }
 `;
 
@@ -150,4 +158,12 @@ export const StyledCloseIcon = styled(Icon)`
   background-color: #1875f0;
   border-radius: 50%;
   padding: 10px;
+`
+
+export const IconsWrapper = styled.div`
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 16px;
 `

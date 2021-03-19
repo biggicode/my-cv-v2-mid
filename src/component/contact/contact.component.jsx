@@ -56,11 +56,13 @@ const Contact = () => {
 
       <CS.StyledImageDiv />
 
-      {dateContact?.iconsList?.map( ({icon}) => (
-        <CS.StyledIconWrapper key={icon}>
-            <CS.StyledContactIcon key={icon} id={icon} onClick={handleClick} icon={icon} />
-        </CS.StyledIconWrapper>
-      ))}
+      <CS.IconsWrapper>
+        {dateContact?.iconsList?.map( ({icon}) => (
+          <CS.StyledIconWrapper key={icon}>
+              <CS.StyledContactIcon key={icon} id={icon} onClick={handleClick} icon={icon} />
+          </CS.StyledIconWrapper>
+        ))}
+      </CS.IconsWrapper>
 
       <CS.StyledRow>
         {conditionalInfoBox()}
