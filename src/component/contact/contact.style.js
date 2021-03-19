@@ -94,7 +94,10 @@ export const StyledContactIcon = styled.i`
     font-size: 8vw;
     font-weight: normal;
     font-style: normal;
-    font-display: block;
+
+    @media (min-width: 768px) {
+      font-size: 4vw;
+    }
   }
 `;
 
@@ -162,5 +165,6 @@ export const IconsWrapper = styled.div`
   grid-column: span 4;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 16px;
 `
