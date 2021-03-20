@@ -4,6 +4,10 @@ import { ArrowDown } from '../arrow-down'
 export const StyledWrapper = styled.div`
   transform: rotate(180deg);
   grid-column: 1/-1;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyledGrid = styled.div`
