@@ -9,6 +9,10 @@ export const StyledGrid = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
   }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
 `
 
 //Recom lists
