@@ -11,10 +11,18 @@ export const StyledGrid = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
   }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
 `;
 
 export const StyledRow = styled.div`
   grid-column: 1/-1;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyledImageDiv = styled.div`
@@ -97,6 +105,10 @@ export const StyledContactIcon = styled.i`
     @media (min-width: 768px) {
       font-size: 4vw;
     }
+
+    @media (min-width: 1366px) {
+      font-size: 2vw;
+    }
   }
 `;
 
@@ -166,4 +178,10 @@ export const IconsWrapper = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 16px;
+
+  @media (min-width: 1366px) {
+    grid-column: span 5;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
 `

@@ -12,6 +12,10 @@ export const Menu2 = styled.div`
   position: fixed;
   right: 10px;
   bottom: 380px;
+
+  @media (min-width: 1366px) {
+    right: 139px;
+  }
 `
 
 export const Menu = styled.div`
@@ -21,6 +25,10 @@ export const Menu = styled.div`
   position: fixed;
   right: 10px;
   bottom: 380px;
+  
+  @media (min-width: 1366px) {
+    right: 139px;
+  }
 `
 
 export const Hamburger = styled.div`

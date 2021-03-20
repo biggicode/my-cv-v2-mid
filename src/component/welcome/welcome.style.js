@@ -5,6 +5,10 @@ export const StyleIconWrapper = styled.div`
   grid-column: 1/-1;
   display: grid;
   height: 80px;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyleDownloadIcon = styled(Icon)`
@@ -49,10 +53,18 @@ export const StyleGrid = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
   }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
 `
 
 export const StyleRow = styled.div`
   grid-column: 1/-1;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyleTitlteWrapper = styled.div`

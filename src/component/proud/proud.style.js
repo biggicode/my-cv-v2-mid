@@ -4,6 +4,10 @@ import { ArrowDown } from '../arrow-down'
 export const StyledWrapper = styled.div`
   transform: rotate(180deg);
   grid-column: 1/-1;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyledGrid = styled.div`
@@ -15,6 +19,10 @@ export const StyledGrid = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
   }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
 `
 
 export const StyledUl = styled.ul`
@@ -23,6 +31,10 @@ export const StyledUl = styled.ul`
   border-radius: 6px;
   grid-column: 1/-1;
   list-style-type: none;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyledLi = styled.li`

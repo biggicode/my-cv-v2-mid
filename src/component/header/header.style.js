@@ -44,4 +44,12 @@ export const StyleTitlteWrapper = styled.div`
       right: -80px;
     }
   }
+
+  @media (min-width: 1366px) {
+
+    &::before {
+      left: -139px;
+      right: -139px;
+    }
+  }
 `

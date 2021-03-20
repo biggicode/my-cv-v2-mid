@@ -5,6 +5,10 @@ export const StyleIconWrapper = styled.div`
   grid-column: 1/-1;
   display: grid;
   height: 80px;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyleIcon = styled(Icon)`

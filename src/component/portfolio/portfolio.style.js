@@ -9,10 +9,26 @@ export const StyledGrid = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
   }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
 `
 
 export const StyledRow = styled.div`
   grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
+  
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyledUl = styled.ul`

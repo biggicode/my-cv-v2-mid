@@ -9,12 +9,37 @@ export const StyledGrid = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
   }
+
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+`
+
+export const StyledRow = styled.div`
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
+  
+  @media (min-width: 1366px) {
+    grid-template-columns: repeat(9, 1fr);
+    grid-column: span 9;
+  }
 `
 
 //Recom lists
 
 export const StyledRecom = styled.div`
   grid-column: span 4;
+
+  @media (min-width: 1366px) {
+    grid-column: span 3;
+  }
 `
 export const StyledRecomHeader = styled.div`
   display: flex;
