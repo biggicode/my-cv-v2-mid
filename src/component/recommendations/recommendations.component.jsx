@@ -28,20 +28,22 @@ export const Recommendations = () => {
 
       <HeaderIcon />
 
-      {dateRecom.recomandariList?.map(({profilePicture, profileName, profileJob, recomText}) => (
-        <RS.StyledRecom>
-          <RS.StyledRecomHeader>
-            <RS.StyledAvatar src={profilePicture}/>
-            <RS.StyledRecomHeaderText>
-              <RS.StyledName>{profileName}</RS.StyledName>
-              <RS.StyledJob>{profileJob}</RS.StyledJob>
-            </RS.StyledRecomHeaderText>
-          </RS.StyledRecomHeader>
-          <RS.StyledRecomBox>
-            <RS.StyledBoxText>{recomText}</RS.StyledBoxText>
-          </RS.StyledRecomBox>
-        </RS.StyledRecom>
-      ))}
+      <RS.StyledRow>
+        {dateRecom.recomandariList?.map(({profilePicture, profileName, profileJob, recomText}) => (
+          <RS.StyledRecom>
+            <RS.StyledRecomHeader>
+              <RS.StyledAvatar src={profilePicture}/>
+              <RS.StyledRecomHeaderText>
+                <RS.StyledName>{profileName}</RS.StyledName>
+                <RS.StyledJob>{profileJob}</RS.StyledJob>
+              </RS.StyledRecomHeaderText>
+            </RS.StyledRecomHeader>
+            <RS.StyledRecomBox>
+              <RS.StyledBoxText>{recomText}</RS.StyledBoxText>
+            </RS.StyledRecomBox>
+          </RS.StyledRecom>
+        ))}
+      </RS.StyledRow>
 
         <ArrowDown />
     </RS.StyledGrid>
