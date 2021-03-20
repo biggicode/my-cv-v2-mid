@@ -17,7 +17,11 @@ export const StyledGrid = styled.div`
 `
 
 export const StyledRow = styled.div`
-  grid-column: span 9;
+  grid-column: 1/-1;
+
+  @media (min-width: 1366px) {
+    grid-column: span 9;
+  }
 `
 
 export const StyledUl = styled.ul`
