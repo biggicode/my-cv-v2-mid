@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Icon } from '../icomoon'
 
 export const Overlay = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
