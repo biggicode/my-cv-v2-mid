@@ -9,6 +9,7 @@ export const Overlay = () => {
       <OS.StyledPhone src="asset/image/phone.svg" />
       <OS.StyledRotate src="asset/image/rotate.svg" />
       <OS.StyledCloseIcon {...crossConfig}/>
+      <OS.StyledIframe src="https://www.youtube.com/embed/nX2M7nzXWqA"></OS.StyledIframe>
     </OS.Overlay>
   )
 }

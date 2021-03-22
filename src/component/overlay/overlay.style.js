@@ -35,3 +35,11 @@ export const StyledCloseIcon = styled(Icon)`
   top: 10px;
   right: 15px;
 `
+
+export const StyledIframe = styled.iframe`
+  width: 302px;
+  height: 170px;
+  position: absolute;
+  top: 500px;
+  border: none;
+`
