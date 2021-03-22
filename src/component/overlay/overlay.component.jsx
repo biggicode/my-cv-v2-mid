@@ -5,7 +5,7 @@ export const Overlay = () => {
 
   return (
     <OS.Overlay>
-      <OS.StyledPhone src="asset/image/phone.jpg" />
+      <OS.StyledPhone src="asset/image/phone.svg" />
       <OS.StyledRotate src="asset/image/rotate.svg" />
     </OS.Overlay>
   )
