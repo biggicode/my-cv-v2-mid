@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Icon } from '../icomoon'
 
 export const Overlay = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -25,4 +26,20 @@ export const StyledRotate = styled.img`
   height: 51px;
   position: absolute;
   margin-top: 260px;
+`
+
+export const StyledCloseIcon = styled(Icon)`
+  background-color: #1875F0;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+`
+
+export const StyledIframe = styled.iframe`
+  width: 302px;
+  height: 170px;
+  position: absolute;
+  top: 500px;
+  border: none;
 `
