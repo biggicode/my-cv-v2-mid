@@ -17,8 +17,12 @@ export const StyledPhone = styled.img`
   height: 302px;
   border-radius: 24px;
   margin-top: 140px;
+  position: absolute;
 `
 
 export const StyledRotate = styled.img`
-  
+  width: 64px;
+  height: 51px;
+  position: absolute;
+  margin-top: 260px;
 `
