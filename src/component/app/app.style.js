@@ -4,7 +4,7 @@ export const StyledApp = styled.div`
   padding: 0 36px;
 
   @media (prefers-color-scheme: dark) {
-    background-color: #000;
+    background-color: #ddd;
   }
 
   @media (min-width: 768px) {
