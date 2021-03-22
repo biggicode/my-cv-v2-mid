@@ -9,6 +9,7 @@ import { Recommendations } from '../recommendations'
 import { Reviews } from '../reviews'
 import { Proud } from '../proud'
 import { Menu } from '../menu'
+import { Overlay } from '../overlay'
 import * as AS from './app.style'
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Reviews />
       <Proud />
       <Menu />
+      <Overlay />
     </AS.StyledApp>
   )
 }
