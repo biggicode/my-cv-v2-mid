@@ -8,4 +8,17 @@ export const Overlay = styled.div`
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+  display: flex;
+  justify-content: center;
+`
+
+export const StyledPhone = styled.img`
+  width: 148px;
+  height: 302px;
+  border-radius: 24px;
+  margin-top: 140px;
+`
+
+export const StyledRotate = styled.img`
+  
 `
