@@ -3,7 +3,7 @@ import * as MS from "./menu.style";
 
 export const Menu = () => {
   const [dateMenu, setDateMenu] = useState({});
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   useEffect(() => {
     try {
