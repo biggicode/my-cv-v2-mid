@@ -2,7 +2,7 @@ import React, { useState }from 'react'
 import * as OS from './overlay.style'
 import { crossConfig } from '../icomoon/config'
 
-export const Overlay = () => {
+export const Overlay = ({handleClick}) => {
 
   const [showOverlay, setShowOverlay] = useState(true);
 
