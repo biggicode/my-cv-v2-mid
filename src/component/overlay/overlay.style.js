@@ -1,6 +1,15 @@
 import styled from 'styled-components'
 import { Icon } from '../icomoon'
 
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate (90deg);
+  }
+`
+
 export const Overlay = styled.div`
   position: fixed;
   top: 0;
