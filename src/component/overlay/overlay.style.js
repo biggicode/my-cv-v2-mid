@@ -33,7 +33,6 @@ export const StyledPhone = styled.img`
   @media screen and (orientation:landscape) {
    display: none;
   }
-}
 `
 
 export const StyledRotate = styled.img`
@@ -63,5 +62,9 @@ export const StyledIframe = styled.iframe`
   top: 500px;
   border: none;
 
-  
+  @media screen and (orientation:landscape) {
+   width: 80vw;
+   height: 100%;
+   top: 0px;
+  }
 `
