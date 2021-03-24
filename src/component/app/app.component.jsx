@@ -25,7 +25,6 @@ const App = () => {
       <Reviews />
       <Proud />
       <Menu />
-      <Overlay />
     </AS.StyledApp>
   )
 }
