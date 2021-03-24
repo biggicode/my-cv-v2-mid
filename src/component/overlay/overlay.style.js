@@ -29,6 +29,11 @@ export const StyledPhone = styled.img`
   margin-top: 140px;
   position: absolute;
   animation: ${rotate} 3s ease-in infinite;
+
+  @media screen and (orientation:landscape) {
+   display: none;
+  }
+}
 `
 
 export const StyledRotate = styled.img`
@@ -37,6 +42,10 @@ export const StyledRotate = styled.img`
   position: absolute;
   margin-top: 260px;
   animation: ${rotate} 3s ease-in infinite;
+
+  @media screen and (orientation:landscape) {
+   display: none;
+  }
 `
 
 export const StyledCloseIcon = styled(Icon)`
@@ -53,4 +62,6 @@ export const StyledIframe = styled.iframe`
   position: absolute;
   top: 500px;
   border: none;
+
+  
 `
