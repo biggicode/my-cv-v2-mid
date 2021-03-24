@@ -5,10 +5,15 @@ import { Overlay } from '../overlay'
 
 export const HeaderIcon = () => {
 
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [showOverlay, setShowOverlay] = useState(false);
 
   const handleClick = () => {
-    setShowOverlay(showOverlay);
+    setShowOverlay(!showOverlay);
+    console.log("merge",showOverlay);
+  }
+  
+  const handleClose = () => {
+    setShowOverlay(false);
   }
 
   return(
@@ -16,7 +21,7 @@ export const HeaderIcon = () => {
       <HIS.StyleIconWrapper>
         <HIS.StyleIcon { ...youtubeConfig } onClick={handleClick}/>
       </HIS.StyleIconWrapper>
-      <Overlay handleClick={handleClick}/>
+      {showOverlay && <Overlay close={handleClose} />}
     </>
 )
 }
