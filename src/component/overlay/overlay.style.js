@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { Icon } from '../icomoon'
 
 const rotate = keyframes`
@@ -6,7 +6,7 @@ const rotate = keyframes`
     transform: rotate(0deg);
   }
   to {
-    transform: rotate (90deg);
+    transform: rotate(90deg);
   }
 `
 
@@ -28,6 +28,7 @@ export const StyledPhone = styled.img`
   border-radius: 24px;
   margin-top: 140px;
   position: absolute;
+  animation: ${rotate} 3s ease-in infinite;
 `
 
 export const StyledRotate = styled.img`
@@ -35,6 +36,7 @@ export const StyledRotate = styled.img`
   height: 51px;
   position: absolute;
   margin-top: 260px;
+  animation: ${rotate} 3s ease-in infinite;
 `
 
 export const StyledCloseIcon = styled(Icon)`
