@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import * as OS from "./overlay.style";
 import { crossConfig } from "../icomoon/config";
 
