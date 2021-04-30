@@ -12,77 +12,76 @@
   },
   "contact": {
     "sectionTitle": "Let's connect", 
-    "profilePicturePath": "asset/image/Instagram 1080 x 1080 - london.jpg",
     "iconsList": [
       {
         "icon":"codetap",
         "title": "CodeTap",
-        "description": "I'm a happy student of CodeTap which is awesome!",
+        "description": "I'm part of CodeTap team which is awesome!",
         "label": "codetap.academy",
         "link": "https://codetap.academy"
       },
       {
         "icon":"github",
-        "title": "GitHUb",
-        "description": "This is my GitHub profile",
+        "title": "GitHub",
+        "description": "This is my GitHub profile!",
         "label": "github.com/biggicode",
         "link": "https://github.com/biggicode"
       },
       {
         "icon":"linkedin",
         "title": "LinkedIn",
-        "description": "I don't have a linkedin yet",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Check out my LinkedIn profile!",
+        "label": "LinkedIn",
+        "link": "https://www.linkedin.com/in/laurentiu-nicolae-oncescu-34a281203/"
       },
       {
         "icon":"stackoverflow",
         "title": "Stack Overflow",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "New to stack overflow",
+        "label": "StackOverflow",
+        "link": "https://stackoverflow.com/users/15800807/oncescu-laurentiu?tab=profile"
       },
       {
         "icon":"codewars",
         "title": "Codewars",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Here i try to solve problems",
+        "label": "codewars.me",
+        "link": "https://www.codewars.com/users/biggicode"
       },
       {
         "icon":"udemy",
         "title": "Udemy",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "I love udemy to learn new things",
+        "label": "udemy.com",
+        "link": "https://www.udemy.com/"
       },
       {
         "icon":"facebook",
         "title": "Facebook",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Facebook account but i'm not very active on it",
+        "label": "facebook.me",
+        "link": "https://www.facebook.com/laurentiu.oncescu/"
       },
       {
         "icon":"skype",
         "title": "Skype",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Skype account(don't use it for a long time)",
+        "label": "skype.profile",
+        "link": "#"
       },
       {
         "icon":"instagram",
         "title": "Instagram",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "This is my Instagram profile",
+        "label": "instagram.me",
+        "link": "https://www.instagram.com/laryoncescu/"
       },
       {
         "icon":"twitter",
         "title": "Twitter",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "This is my twitter account",
+        "label": "twitter.me",
+        "link": "https://www.facebook.com/laurentiu.oncescu/"
       }
     ]
   },
