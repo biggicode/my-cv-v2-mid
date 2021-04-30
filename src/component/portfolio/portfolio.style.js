@@ -68,7 +68,8 @@ export const StyledImage = styled.img`
   height: 100px;
 `
 
-export const StyledIconWrapper = styled.div`
+export const StyledIconWrapper = styled.a`
+  text-decoration: none;
   width: 40px;
   height: 40px;
   border-radius: 0 0 20px 20px;
