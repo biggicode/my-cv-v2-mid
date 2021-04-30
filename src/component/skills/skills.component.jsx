@@ -30,7 +30,7 @@ const Skills = () => {
   )
 
   return (
-    <SS.StyledGrid>
+    <SS.StyledGrid id="skills">
       <Header title={dateSkills?.sectionTitle}/>
 
       <HeaderIcon />
@@ -51,24 +51,24 @@ const Skills = () => {
       <SemiTitle title={dateSkills?.vrajiTypeList[0]?.titlu}/>
       
       <SS.StyledRow>
-        {dateSkills?.vrajiTypeList[0]?.vrajiList?.map(({label}) => (
-          <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+        {dateSkills?.vrajiTypeList[0]?.vrajiList?.map(({label, color}) => (
+          <SS.StyledSkillButton color={color}>{label}</SS.StyledSkillButton>
         ))}
       </SS.StyledRow>
 
       <SemiTitle title={dateSkills?.vrajiTypeList[1]?.titlu}/>
 
       <SS.StyledRow>
-        {dateSkills?.vrajiTypeList[1]?.vrajiList?.map(({label}) => (
-          <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+        {dateSkills?.vrajiTypeList[1]?.vrajiList?.map(({label, color}) => (
+          <SS.StyledSkillButton color={color}>{label}</SS.StyledSkillButton>
         ))}
       </SS.StyledRow>
 
       <SemiTitle title={dateSkills?.vrajiTypeList[2]?.titlu}/>
 
       <SS.StyledRow>
-        {dateSkills?.vrajiTypeList[2]?.vrajiList?.map(({label}) => (
-          <SS.StyledSkillButton>{label}</SS.StyledSkillButton>
+        {dateSkills?.vrajiTypeList[2]?.vrajiList?.map(({label, color}) => (
+          <SS.StyledSkillButton color={color}>{label}</SS.StyledSkillButton>
         ))}
       </SS.StyledRow>
 

@@ -82,7 +82,7 @@ export const StyledSkillButton = styled.div`
   padding: 0 18px;
   line-height: 30px;
   font-size: 12px;
-  background-color: #ff0000;
+  background-color: ${({ color }) => color};
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;

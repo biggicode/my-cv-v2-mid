@@ -26,7 +26,7 @@ export const Portfolio = () => {
   )
 
   return(
-    <PS.StyledGrid>
+    <PS.StyledGrid id="portfolio">
 
       <Header title={datePortfolio.sectionTitle}/>
 
@@ -44,8 +44,8 @@ export const Portfolio = () => {
             <PS.StyledLi>
               <PS.StyledImage src={projectImagePath}/>
             </PS.StyledLi>
-            <PS.StyledIconWrapper><Icon {...iconsOpenSource.gitHub}/></PS.StyledIconWrapper>
-            <PS.StyledIconWrapper><Icon {...earth}/></PS.StyledIconWrapper>
+            <PS.StyledIconWrapper href="https://github.com/biggicode?tab=repositories" target="_blank"><Icon {...iconsOpenSource.gitHub}/></PS.StyledIconWrapper>
+            <PS.StyledIconWrapper href="https://github.com/biggicode?tab=repositories" target="_blank"><Icon {...earth}/></PS.StyledIconWrapper>
         </PS.StyledUl>
         ))}
       </PS.StyledRow>

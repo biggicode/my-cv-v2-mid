@@ -12,77 +12,76 @@
   },
   "contact": {
     "sectionTitle": "Let's connect", 
-    "profilePicturePath": "asset/image/Instagram 1080 x 1080 - london.jpg",
     "iconsList": [
       {
         "icon":"codetap",
         "title": "CodeTap",
-        "description": "I'm a happy student of CodeTap which is awesome!",
+        "description": "I'm part of CodeTap team which is awesome!",
         "label": "codetap.academy",
         "link": "https://codetap.academy"
       },
       {
         "icon":"github",
-        "title": "GitHUb",
-        "description": "This is my GitHub profile",
+        "title": "GitHub",
+        "description": "This is my GitHub profile!",
         "label": "github.com/biggicode",
         "link": "https://github.com/biggicode"
       },
       {
         "icon":"linkedin",
         "title": "LinkedIn",
-        "description": "I don't have a linkedin yet",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Check out my LinkedIn profile!",
+        "label": "LinkedIn",
+        "link": "https://www.linkedin.com/in/laurentiu-nicolae-oncescu-34a281203/"
       },
       {
         "icon":"stackoverflow",
         "title": "Stack Overflow",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "New to stack overflow",
+        "label": "StackOverflow",
+        "link": "https://stackoverflow.com/users/15800807/oncescu-laurentiu?tab=profile"
       },
       {
         "icon":"codewars",
         "title": "Codewars",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Here i try to solve problems",
+        "label": "codewars.me",
+        "link": "https://www.codewars.com/users/biggicode"
       },
       {
         "icon":"udemy",
         "title": "Udemy",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "I love udemy to learn new things",
+        "label": "udemy.com",
+        "link": "https://www.udemy.com/"
       },
       {
         "icon":"facebook",
         "title": "Facebook",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Facebook account but i'm not very active on it",
+        "label": "facebook.me",
+        "link": "https://www.facebook.com/laurentiu.oncescu/"
       },
       {
         "icon":"skype",
         "title": "Skype",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "Skype account(don't use it for a long time)",
+        "label": "skype.profile",
+        "link": "#"
       },
       {
         "icon":"instagram",
         "title": "Instagram",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "This is my Instagram profile",
+        "label": "instagram.me",
+        "link": "https://www.instagram.com/laryoncescu/"
       },
       {
         "icon":"twitter",
         "title": "Twitter",
-        "description": "lafoqmfomaofmaomfom",
-        "label": "codetap.academy",
-        "link": "https://codetap.academy"
+        "description": "This is my twitter account",
+        "label": "twitter.me",
+        "link": "https://www.facebook.com/laurentiu.oncescu/"
       }
     ]
   },
@@ -114,43 +113,43 @@
         "titlu": "Front End",
         "vrajiList": [
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "HTML"
           },
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "CSS"
           },
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "JavaScript"
           },
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "React"
           },
           {
-            "type": "heart",
+            "color": "#F18F1C",
             "label": "Redux"
           },
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "Styled Components"
           },
           {
-            "type": "trophy",
+            "color": "#50D166",
             "label": "Sass"
           },
           {
-            "type": "trophy",
+            "color": "#50D166",
             "label": "Less"
           },
           {
-            "type": "trophy",
+            "color": "#50D166",
             "label": "Material UI"
           },
           {
-            "type": "trophy",
+            "color": "#50D166",
             "label": "SEO"
           }
         ]
@@ -159,48 +158,24 @@
         "titlu": "Back End",
         "vrajiList": [
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "Pug"
           },
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "NodeJs"
           },
           {
-            "type": "heart",
+            "color": "#F18F1C",
             "label": "FireBase"
           },
           {
-            "type": "trophy",
+            "color": "#50D166",
             "label": "Git"
           },
           {
-            "type": "trophy",
-            "label": "Linuxel"
-          },
-          {
-            "type": "trophy",
-            "label": "Rest"
-          },
-          {
-            "type": "trophy",
+            "color": "#F18F1C",
             "label": "MySQL"
-          },
-          {
-            "type": "book",
-            "label": "Placinta"
-          },
-          {
-            "type": "book",
-            "label": "CuMere"
-          },
-          {
-            "type": "book",
-            "label": "SiZahar"
-          },
-          {
-            "type": "book",
-            "label": "TurtaDulce"
           }
         ]
       },
@@ -208,28 +183,20 @@
         "titlu": "Others",
         "vrajiList": [
           {
-            "type": "heart",
+            "color": "#d52027",
             "label": "Windows"
           },
           {
-            "type": "heart",
+            "color": "#F18F1C",
             "label": "Linux"
           },
           {
-            "type": "heart",
-            "label": "Macarena"
+            "color": "#d52027",
+            "label": "CMD"
           },
           {
-            "type": "trophy",
-            "label": "PentruMac"
-          },
-          {
-            "type": "trophy",
-            "label": "Nuam"
-          },
-          {
-            "type": "trophy",
-            "label": "Bani"
+            "color": "#F18F1C",
+            "label": "PhotoShop"
           }
         ]
       }
@@ -295,14 +262,14 @@
         {
           "icon":"codewars",
           "contentRow": [
-            "Rank: 3kyu",
+            "Rank: 8kyu",
             "Honor: 341"  
           ]
         },
         {
           "icon":"stackoverflow",
           "contentRow": [
-            "Top: 70%",
+            "Top: 99%",
             "Reputation: 1241",
             "People reached: 327",
             "Answers: 17"
@@ -422,14 +389,14 @@
         "recomText": "Laurentiu is a highly creative and easy-going person to work with.He is multi-skilled, has a vast knowledge in web development in general and frontend development in particular with jaw-dropping CSS skills.In addition, he is proactive, self motivated, intelligent, keen to learn new technologies, always updating his knowledge/skills and keen to share his vast knowledge with any and all. It was a pleasure working with him. Laurentiu makes a great addition to any team!"
       },
       {
-        "profilePicture":"/asset/image/marian.jpg",
+        "profilePicture":"/asset/image/gratiela-zburlea.jpg",
         "profileName": "Gratiela Zburlea",
         "profileJob": "Marketing & Founder of Bitbee",
         "recomText": "Laurentiu has done a fantastic job on UI development while working for me on a Digital Transformation Programme of work at Direct Line. His work rate is high and output is of equally high quality. He has proved to be a great enabler in assisting me to deliver the Programme of work that I have been overseeing."
       },
       {
-        "profilePicture":"/asset/image/marian.jpg",
-        "profileName": "Marian Zburlea",
+        "profilePicture":"/asset/image/razvan-mocanu.jpg",
+        "profileName": "Razvan Mocanu",
         "profileJob": "Senior Web Developer",
         "recomText": "Laurentiu is a highly creative and easy-going person to work with.He is multi-skilled, has a vast knowledge in web development in general and frontend development in particular with jaw-dropping CSS skills.In addition, he is proactive, self motivated, intelligent, keen to learn new technologies, always updating his knowledge/skills and keen to share his vast knowledge with any and all. It was a pleasure working with him. Laurentiu makes a great addition to any team!"
       }
@@ -439,22 +406,16 @@
     "sectionTitle": "Reviews",
     "reviewsList": [
       {
-        "profilePicture": "/asset/image/cv2.jpg",
-        "reviewerName": "Stelica Stefania",
+        "profilePicture": "/asset/image/raluca-ghintuiala.jpg",
+        "reviewerName": "Raluca Ghintuiala",
         "reviewDate": "12 January 2021",
         "review": "Great content , these things you will learn will change your life for better"
       },
       {
-        "profilePicture": "/asset/image/cv2.jpg",
-        "reviewerName": "Omu Paiangan",
+        "profilePicture": "/asset/image/constantin-matei.jpg",
+        "reviewerName": "Matei Constantin",
         "reviewDate": "03 January 2021",
-        "review": "Your videos helped me climb a tree"
-      },
-      {
-        "profilePicture": "/asset/image/cv2.jpg",
-        "reviewerName": "Baba Cloanta",
-        "reviewDate": "26 March 2021",
-        "review": "Aww I hope i don't fall"
+        "review": "Your helped me when you could ty"
       }
     ]
   },
@@ -463,20 +424,20 @@
     "semiTitle": "Awards and Achievements",
     "proudList": [
       {
-        "date": "2009 - 2010",
-        "proudText": "I've mentored and helped land a job or get promoted over 30 people as web developers across all levels: junior, mid and senior."
+        "date": "2020 - 2021",
+        "proudText": "I've mentored and helped land a job or get promoted over 3 people as web developers across all levels: junior, mid and senior."
       },
       {
-        "date": "2012 - 2014",
-        "proudText": "I had 2 cows and 3 pigs and I go farming everyday"
+        "date": "2017 - 2021",
+        "proudText": "I finished a prestigious profile in my university."
       },
       {
-        "date": "2011 - 2015",
-        "proudText": "I've raised close to 100,000 subscribers and more than 5 million views across the social networks CodeTap is present on helping young developers jumpstart their career all over the world."
+        "date": "2013 - 2017",
+        "proudText": "I finished top 1 highschool in my region.A lot of presidents and liders came to it."
       },
       {
-        "date": "1998 - 1999",
-        "proudText": "I learned to walk "
+        "date": "2006-2013",
+        "proudText": "I took first place on some Olympics and participated on many others."
       },
       {
         "date": "2006 - 2017",
@@ -486,15 +447,42 @@
   },
   "menu": {
     "menuList": [
-      "Let's get to know each other",
-      "Let's connect",
-      "Skills",
-      "Experience",
-      "Open source",
-      "Portfolio",
-      "Recommendations",
-      "Reviews",
-      "I'm proud"
+      {
+        "content": "Let's get to know each other",
+        "target": "#welcome"
+      },
+      {
+        "content": "Let's connect",
+        "target": "#connect"
+      },
+      {
+        "content": "Skills",
+        "target": "#skills"
+      },
+      {
+        "content": "Experience",
+        "target": "#experience"
+      },
+      {
+        "content": "Open source",
+        "target": "#source"
+      },
+      {
+        "content": "Portfolio",
+        "target": "#portfolio"
+      },
+      {
+        "content": "Recommendations",
+        "target": "#recommendations"
+      },
+      {
+        "content": "Reviews",
+        "target": "#reviews"
+      },
+      {
+        "content": "I'm proud",
+        "target": "#proud"
+      }
     ]
   }
   

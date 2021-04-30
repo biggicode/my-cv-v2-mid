@@ -42,7 +42,7 @@ export const OpenSource = () => {
 
 
   return (
-    <OSS.StyledGrid>
+    <OSS.StyledGrid id="source">
       <Header title={dateOpenSource.sectionTitle}/>
 
 
@@ -101,10 +101,10 @@ export const OpenSource = () => {
             <OSS.StyledListButtomWrapper onClick = {() => handleClick(key)}>
               <Icon {...iconsOpenSource.info}/>
             </OSS.StyledListButtomWrapper>
-            <OSS.StyledListButtomWrapper>
+            <OSS.StyledListButtomWrapper href="https://www.youtube.com/" target="_blank">
               <Icon {...iconsOpenSource.youtubeWhite}/>
             </OSS.StyledListButtomWrapper>
-            <OSS.StyledListButtomWrapper>
+            <OSS.StyledListButtomWrapper href="https://github.com/biggicode?tab=repositories" target="_blank">
               <Icon {...iconsOpenSource.gitHub}/>
             </OSS.StyledListButtomWrapper>
           </OSS.StyledGitHubList>

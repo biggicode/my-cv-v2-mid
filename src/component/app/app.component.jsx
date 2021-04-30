@@ -9,16 +9,15 @@ import { Recommendations } from '../recommendations'
 import { Reviews } from '../reviews'
 import { Proud } from '../proud'
 import { Menu } from '../menu'
-import { Overlay } from '../overlay'
 import * as AS from './app.style'
 
 const App = () => {
   return (
     <AS.StyledApp>
       <Welcome />
-      <Contact/>
-      <Skills/>
-      <Experience/>
+      <Contact />
+      <Skills />
+      <Experience />
       <OpenSource />
       <Portfolio />
       <Recommendations />

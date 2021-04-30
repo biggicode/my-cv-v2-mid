@@ -49,7 +49,7 @@ const Contact = () => {
   }
   
   return (
-    <CS.StyledGrid>
+    <CS.StyledGrid id="connect">
       <Header title={dateContact?.sectionTitle}/>
 
       <HeaderIcon />

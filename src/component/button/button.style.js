@@ -12,7 +12,7 @@ export const StyleButtonText = styled.div`
   margin: auto;
 `
 
-export const StyleDownloadButton = styled.div`
+export const StyleDownloadButton = styled.a`
   height: 40px;
   width: 170px;
   border-radius: 20px;
@@ -23,4 +23,5 @@ export const StyleDownloadButton = styled.div`
   background-color: #1875F0;
   display: flex;
   align-content: center;
+  text-decoration: none;
 `

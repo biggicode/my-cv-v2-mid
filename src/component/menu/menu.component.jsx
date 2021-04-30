@@ -36,8 +36,8 @@ export const Menu = () => {
         </MS.Menu2>
       ) : (
         <MS.Menu onClick={handleClick}>
-          {dateMenu.menuList?.map((link) => (
-            <MS.StyledMenuLinks>{link}</MS.StyledMenuLinks>
+          {dateMenu.menuList?.map(({content, target}) => (
+            <MS.StyledMenuLinks href={target}>{content}</MS.StyledMenuLinks>
           ))}
           <MS.StyledMenuLinks>
             <span className="icon__cross"></span>

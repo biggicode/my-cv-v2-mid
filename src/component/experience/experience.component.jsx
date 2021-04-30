@@ -39,7 +39,7 @@ export const Experience = () => {
   
 
   return (
-    <ES.GridContainer>
+    <ES.GridContainer id="experience">
       <Header title={dateExperience.sectionTitle}/>
 
       <HeaderIcon />

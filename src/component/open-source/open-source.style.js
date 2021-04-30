@@ -205,8 +205,9 @@ export const StyledStatsLiContent = styled.div`
   }
 `
 
-export const StyledListButtomWrapper = styled.div`
+export const StyledListButtomWrapper = styled.a`
   background-color: #FF006D;
+  text-decoration: none;
   width: 40px;
   height: 40px;
   border-radius: 0 0 20px 20px;
