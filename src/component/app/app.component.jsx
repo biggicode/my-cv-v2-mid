@@ -15,9 +15,9 @@ const App = () => {
   return (
     <AS.StyledApp>
       <Welcome />
-      <Contact/>
-      <Skills/>
-      <Experience/>
+      <Contact />
+      <Skills />
+      <Experience />
       <OpenSource />
       <Portfolio />
       <Recommendations />

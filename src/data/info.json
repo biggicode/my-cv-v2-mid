@@ -486,15 +486,42 @@
   },
   "menu": {
     "menuList": [
-      "Let's get to know each other",
-      "Let's connect",
-      "Skills",
-      "Experience",
-      "Open source",
-      "Portfolio",
-      "Recommendations",
-      "Reviews",
-      "I'm proud"
+      {
+        "content": "Let's get to know each other",
+        "target": "#welcome"
+      },
+      {
+        "content": "Let's connect",
+        "target": "#connect"
+      },
+      {
+        "content": "Skills",
+        "target": "#skills"
+      },
+      {
+        "content": "Experience",
+        "target": "#experience"
+      },
+      {
+        "content": "Open source",
+        "target": "#source"
+      },
+      {
+        "content": "Portfolio",
+        "target": "#portfolio"
+      },
+      {
+        "content": "Recommendations",
+        "target": "#recommendations"
+      },
+      {
+        "content": "Reviews",
+        "target": "#reviews"
+      },
+      {
+        "content": "I'm proud",
+        "target": "#proud"
+      }
     ]
   }
   

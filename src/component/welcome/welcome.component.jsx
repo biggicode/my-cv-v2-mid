@@ -28,7 +28,7 @@ const Welcome = () => {
   )
 
   return (
-    <WS.StyleGrid>
+    <WS.StyleGrid id="welcome">
       <Header title={test.sectionTitle}/> 
 
       <HeaderIcon />

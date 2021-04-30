@@ -30,7 +30,7 @@ const Skills = () => {
   )
 
   return (
-    <SS.StyledGrid>
+    <SS.StyledGrid id="skills">
       <Header title={dateSkills?.sectionTitle}/>
 
       <HeaderIcon />

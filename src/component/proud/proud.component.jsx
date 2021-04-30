@@ -24,7 +24,7 @@ export const Proud = () => {
   )
 
   return (
-    <SP.StyledGrid>
+    <SP.StyledGrid id="proud">
       <Header title={dateProud.sectionTitle}/>
 
       <HeaderIcon />

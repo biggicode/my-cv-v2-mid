@@ -23,7 +23,7 @@ export const Recommendations = () => {
   )
 
   return (
-    <RS.StyledGrid>
+    <RS.StyledGrid id="recommendations">
       <Header title={dateRecom.sectionTitle}/>
 
       <HeaderIcon />

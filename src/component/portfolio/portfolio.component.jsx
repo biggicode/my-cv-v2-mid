@@ -26,7 +26,7 @@ export const Portfolio = () => {
   )
 
   return(
-    <PS.StyledGrid>
+    <PS.StyledGrid id="portfolio">
 
       <Header title={datePortfolio.sectionTitle}/>
 
